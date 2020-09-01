@@ -2,8 +2,8 @@
 main:
   - title: "Publications"
     url: /publications/
-  - title: "Competitions&Awards"
-    url: /competitions&awards/    
+  - title: "Competitions"
+    url: /competitions/    
   - title: "Talks"
     url: /talks/    
   - title: "Blog Posts"
