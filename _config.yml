@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Dingkang Liang"
-  avatar           : "dkliang.jpg"
+  avatar           : "dkliang.png"
   bio              : "Master student at Huazhong University of Science and Technology"
   location         : "Wuhan"
   email            : "dkliang@hust.edu.cn"
-  github		       : "https://github.com/dk-liang"
+  github		       : "dk-liang"
 
 
 
