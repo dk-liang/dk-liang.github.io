@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-About me
-======
-I am currently a Master student at Huazhong University of Science and Technology. I received my Bachelor’s degree in Nanjing University of Posts and Telecommunication.
+
+I am currently a Master student at Huazhong University of Science and Technology. I received my Bachelor’s degree at Nanjing University of Posts and Telecommunication.
 
 Research
 ======
@@ -29,8 +28,8 @@ Publications
 # Competitions
 
 * The **first place** of the Crowd counting track in Vision Meets Drone (visdrone)  with ECCV 2020.
-* The **first place** of the Crowd counting track in CV101, Shenzhen, China, 2019.
-* The **first place** of the OpenVino track in CV101, Shenzhen, China, 2019.
+* The **first place** of the Crowd counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
+* The **first place** of the OpenVino track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * “挑战杯”江苏省大学生课外学术作品竞赛特等奖, 2019.
 * 全国大学生FPGA创新设计邀请赛国家级一等奖, 2019.
 * 全国大学生物联网设计竞赛华东赛区一等奖, 2018.
