@@ -27,7 +27,7 @@ Publications
 
 # Competitions
 
-* The **first place** of the Crowd counting track in Vision Meets Drone (visdrone)  with ECCV 2020.
+* The **first place** of the Crowd counting track in Vision Meets Drone (visdrone)  challenge with ECCV 2020.
 * The **first place** of the Crowd counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * The **first place** of the OpenVino track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * “挑战杯”江苏省大学生课外学术作品竞赛特等奖, 2019.
