@@ -2,20 +2,14 @@
 main:
   - title: "Publications"
     url: /publications/
-
+  - title: "Competitions&Awards"
+    url: /competitions&awards/    
   - title: "Talks"
     url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-    
   - title: "Blog Posts"
     url: /year-archive/
-    
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "CV"
     url: /cv/
-    
 
