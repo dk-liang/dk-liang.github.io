@@ -10,6 +10,7 @@ author_profile: true
 ## 2019
 * The **first place** of the Crowd counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * The **first place** of the OpenVino track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
+* “互联网+”全国大学生创新创业大赛全国总决赛金奖, 2019.
 * “挑战杯”江苏省大学生课外学术作品竞赛特等奖, 2019.
 * 全国大学生FPGA创新设计邀请赛国家级一等奖, 2019.
 
