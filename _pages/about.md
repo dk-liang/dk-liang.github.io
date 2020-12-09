@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am currently a Master student at Huazhong University of Science and Technology. I received my Bachelor’s degree at Nanjing University of Posts and Telecommunication.
+I am currently a Master student at Huazhong University of Science and Technology, under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/) and Prof. [Yongchao Xu](https://sites.google.com/view/yongchaoxu). I received my Bachelor’s degree at Nanjing University of Posts and Telecommunication (NJUPT) in 2019, under the supervision of Prof.Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).   
 
 Research
 ======
@@ -45,7 +45,9 @@ Publications
 * “英飞凌”杯全国高校无人机创新设计应用大赛 Top3.5% (14/400), 2017.
 * 3S杯全国大学生互联网+“三创”大赛国家三等奖, 2017.
 
+
 # Others
+* Conference reviewers: CVPR2021.
 * The former chief executive officer of Wefly Inc.
 
 
