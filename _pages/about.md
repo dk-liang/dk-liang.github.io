@@ -18,8 +18,8 @@ My research interests mainly lie in crowd counting, people localization, and edg
 Publications
 ======
 
-* Wei Xu#, Dingkang Liang#, Yixiao Zheng, Zhanyu Ma. Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.arXiv preprint arXiv:2012.08149, 2020.
-* Chenfeng Xu#, **Dingkang Liang**#, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. Autoscale for crowd counting[J]. arXiv preprint arXiv:1912.09632, 2019.
+* Wei Xu\*, **Dingkang Liang**\*, Yixiao Zheng, Zhanyu Ma. Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.arXiv preprint arXiv:2012.08149, 2020.
+* Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. Autoscale for crowd counting[J]. arXiv preprint arXiv:1912.09632, 2019.
 * Yuqi Wang, Xinwei Liu, Yihao Chen, Wei Xu, **Dingkang Liang**, Fei Gao, Miaocheng Zhang, Subhranu Samanta, Xiao Gong, Xiaojuan Lian, Xiang Wan, Yi Tong. Manipulation of the electrical behaviors of Cu/MXene/SiO2/W memristor[J]. Applied Physics Express, 2019, 12(10): 106504.
 * Yi-Hao Chen, Wei Xu, Yu-Qi Wang, Xiang Wan, Yue-Feng Li, **Ding-Kang Liang**, Li-Qun Lu, Xin-Wei Liu, Xiao-Juan Lian, Er-Tao Hu, Yu-Feng Guo, Jian-Guang Xu, Yi Tong, Jian Xiao. Fabrication of synaptic memristor based on two-dimensional material MXene and realization of both long-term and short-term plasticity[J].  Acta Physica Sinica, 2019, 68(9): 098501-1-098501-6.
 * Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong. Hardware implementation of classical conditioning with iron-oxide-based memristors[J]. Applied Physics Express, 2018, 11(11): 114601.
@@ -48,7 +48,7 @@ Publications
 
 
 # Others
-* Conference reviewers: CVPR2021.
+* Conference reviewer: CVPR2021.
 * The former chief executive officer of Wefly Inc.
 
 
