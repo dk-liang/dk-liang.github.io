@@ -49,7 +49,9 @@ Publications
 
 # Others
 * Conference reviewer: CVPR2021.
-* The former chief executive officer of Wefly Inc.
+
+* CEO & Co-Founder of  [Wefly, Inc.](https://www.tianyancha.com/company/3176757052)
+
 
 
 
