@@ -56,8 +56,11 @@ Publications
 
 
 # Others
-* Conference reviewer: CVPR2021, ICCV2021.
-* I am the CEO& Co-Founder of  *[Wefly](https://www.tianyancha.com/company/3176757052), Inc.* 
+* Conference reviewer: CVPR2021, ICCV2021.  
+
+    
+
+  
 
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a"></script>
