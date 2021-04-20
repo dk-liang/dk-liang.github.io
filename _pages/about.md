@@ -17,11 +17,12 @@ My research interests mainly lie in crowd counting, people localization, and edg
 
 Publications
 ======
-
+* TransCrowd: Weakly-Supervised Crowd Counting with Transformer.
+	**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)], 2021.
 * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd. 
-	**Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[pdf](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.
+	**Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.
 * Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.
-	Wei Xu\*, **Dingkang Liang**\*, Yixiao Zheng, Zhanyu Ma. [[pdf](https://arxiv.org/abs/2012.08149)], 2020.
+	Wei Xu, **Dingkang Liang**, Yixiao Zheng, Zhanyu Ma. [[pdf](https://arxiv.org/abs/2012.08149)], 2020.
 * AutoScale: Learning to Scale for Crowd Counting and Localization.
 	Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)], 2019.
 * Manipulation of the electrical behaviors of Cu/MXene/SiO2/W memristor. 
@@ -32,7 +33,6 @@ Publications
 	Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong.  Applied Physics Express [[PDF](https://iopscience.iop.org/article/10.7567/APEX.11.114601)], 2018.
 * Ultralow-voltage albumen-gated electric-double-layer thin film transistors.
 	**Ding-Kang L**, Yi-Hao C, Wei X, et al. Acta Physica Sinica [[PDF](https://www.researchgate.net/publication/331730831_Ultralow-voltage_albumen-gated_electric-double-layer_thin_film_transistors)], 2018.
-
 
 # Competitions
 
@@ -57,6 +57,8 @@ Publications
 
 # Others
 * Conference reviewer: CVPR2021, ICCV2021.
+* I am the CEO& Co-Founder of  *[Wefly](https://www.tianyancha.com/company/3176757052), Inc.* 
+
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a"></script>
 

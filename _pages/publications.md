@@ -4,7 +4,9 @@ permalink: /publications/
 author_profile: true
 ---
 ## 2021
-Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd. 
+* TransCrowd: Weakly-Supervised Crowd Counting with Transformer.
+	**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. [[PDF]
+* Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
 **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[pdf](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/RDTM)], 2021.
 
 ## 2020
