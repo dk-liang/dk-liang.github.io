@@ -59,7 +59,7 @@ Publications
 * Excellent volunteer teacher, Hainan, 2016. (Thanks to students and colleagues.)
 * Former CEO & Co-Founde, [Wefly](https://www.tianyancha.com/company/3176757052), Inc. (The status of Wefly is cancellation.)
 * Vice-chairman, Science and Technology Association of College of EOAST, Nanjing University of Posts and Telecommunication, May 2017 ~ May 2018.
-* Monitor, Electromagnetic fields and wireless technology, Nanjing University of Posts and Telecommunication, Sep 2015 ~ Jun 2019. (Our class won the title of the advanced class collective in Jiangsu Province.)
+* Monitor, Electromagnetic fields and wireless technology, Nanjing University of Posts and Telecommunication, Sep 2015 ~ Jun 2019. (Our class won the award of the advanced class of Jiangsu Province.)
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a"></script>
 
