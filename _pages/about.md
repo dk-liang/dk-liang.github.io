@@ -53,16 +53,13 @@ Publications
 * 全国大学生FPGA创新设计邀请赛国家二等奖, 2017.
 * “英飞凌”杯全国高校无人机创新设计应用大赛 Top3.5% (14/400), 2017.
 * 3S杯全国大学生互联网+“三创”大赛国家三等奖, 2017.
-
-## Academic Service
+# Academic Service
 * Conference reviewer: CVPR2021, ICCV2021.  
-
-## Volunteer and Leadership Activities
-* Excellent volunteer teacher, Hainan, 2016.
+# Volunteer and Leadership Activities
+* Excellent volunteer teacher, Hainan, 2016. (Thanks to students and colleagues.)
 * Former CEO & Co-Founde, [Wefly](https://www.tianyancha.com/company/3176757052), Inc. (The status of Wefly is cancellation.)
 * Vice-chairman, Science and Technology Association of College of EOAST, Nanjing University of Posts and Telecommunication, May 2017 ~ May 2018.
 * Monitor, Electromagnetic fields and wireless technology, Nanjing University of Posts and Telecommunication, Sep 2015 ~ Jun 2019. (Our class won the title of the advanced class collective in Jiangsu Province.)
-
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a"></script>
 
