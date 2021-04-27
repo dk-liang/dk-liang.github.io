@@ -52,9 +52,11 @@ Publications
 * 全国大学生电子设计竞赛国家级二等奖, 2018.
 * 全国大学生FPGA创新设计邀请赛国家二等奖, 2017.
 * “英飞凌”杯全国高校无人机创新设计应用大赛 Top3.5% (14/400), 2017.
-* 3S杯全国大学生互联网+“三创”大赛国家三等奖, 2017.
+* 3S杯全国大学生互联网+“三创”大赛国家三等奖, 2017.  
+
 # Academic Service
-* Conference reviewer: CVPR2021, ICCV2021.  
+* Conference reviewer: CVPR2021, ICCV2021.   
+
 # Volunteer and Leadership Activities
 * Excellent volunteer teacher, Hainan, 2016. (Thanks to students and colleagues.)
 * Former CEO & Co-Founde, [Wefly](https://www.tianyancha.com/company/3176757052), Inc. (The status of Wefly is cancellation.)
