@@ -63,7 +63,10 @@ Competitions
 
 Academic Service
 ======
-* Conference reviewer: CVPR2021, ICCV2021.   
+### Conference reviewer: 
+EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.
+EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.
+EEE/CVF International Conference on Computer Vision (ICCV), 2021.
 
 Volunteer and Leadership Activities
 ======
