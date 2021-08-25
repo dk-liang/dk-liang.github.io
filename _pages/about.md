@@ -28,7 +28,8 @@ Publications
 Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)], 2019.
 
 ## Journal Publications
-
+* Cell Localization and Counting Using Direction Field Map.   
+Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
 * Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.  
 Wei Xu, **Dingkang Liang**, Yixiao Zheng, Zhanyu Ma. IEEE Signal Processing  Letters (SPL), 2021. [[paper](https://arxiv.org/abs/2012.08149)] [[code](https://github.com/PRIS-CV/DSACA.git)]
 * Manipulation of the electrical behaviors of Cu/MXene/SiO2/W memristor.   

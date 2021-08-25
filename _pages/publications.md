@@ -4,6 +4,8 @@ permalink: /publications/
 author_profile: true
 ---
 ## 2021
+* Cell Localization and Counting Using Direction Field Map.   
+Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.
 	**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. [[PDF]
 * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
