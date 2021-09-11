@@ -43,13 +43,13 @@ Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong.  Applied Physics Express, 201
 
 Competitions
 ======
-
-* The **first place** of the Crowd counting track in Vision Meets Drone (VisDrone)  challenge with ECCV 2020.
+* The **first place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ICCV 2021.
+* The **first place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ECCV 2020.
 * The **first place [(100,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the Crowd counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * The **first place [(80,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the OpenVino track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
-* “互联网+”全国大学生创新创业大赛全国总决赛金奖, 2019.
-* “挑战杯”江苏省大学生课外学术作品竞赛特等奖, 2019.
-* 全国大学生FPGA创新设计邀请赛国家级一等奖**(3,000 RMB Bonus)**, 2019.
+* **Gold Award**, China College Students' "Internet+" Innovation and Entrepreneurship Competition (互联网+”全国大学生创新创业大赛全国总决赛), 2019.
+* **Grand Prize**, "Challenge Cup" Competition, Provincial (挑战杯”江苏省大学生课外学术作品竞赛), 2019.
+* 全国大学生FPGA创新设计邀请赛国家级一等奖 **(3,000 RMB Bonus)**, 2019.
 * 国家级大学生创新训练计划，结题成绩优秀，入选第**[十一届全国大学生创新创业年会](http://www.moe.gov.cn/s78/A08/tongzhi/201806/t20180604_338207.html)**参展项目, 2018.
 * 全国大学生物联网设计竞赛华东赛区一等奖, 2018.
 * 全国大学生智能互联创新大赛华东赛区二等奖, 2018.
@@ -71,8 +71,8 @@ EEE/CVF International Conference on Computer Vision (ICCV), 2021.
 
 Volunteer and Leadership Activities
 ======
-* Excellent volunteer teacher, Hainan, 2016. (Thanks to students and colleagues.)
-* Former CEO & Co-Founde, [Wefly](https://www.tianyancha.com/company/3176757052), Inc. (The status of Wefly is cancellation.)
+* Excellent volunteer teacher, Hainan, 2016. 
+* Former CEO & Co-Founder, [Wefly](https://www.tianyancha.com/company/3176757052), Inc. (The status of Wefly is cancellation.)
 * Vice-chairman, Science and Technology Association of College of EOAST, Nanjing University of Posts and Telecommunication, May 2017 ~ May 2018.
 * Outstanding Student Leader.
 * Monitor, Electromagnetic fields and wireless technology, Nanjing University of Posts and Telecommunication, Sep 2015 ~ Jun 2019. (Our class won the award of the advanced class of Jiangsu Province.)
