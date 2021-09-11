@@ -45,7 +45,7 @@ Competitions
 ======
 * The **first place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ICCV 2021.
 * The **first place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ECCV 2020.
-* The **first place [(100,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the Crowd counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
+* The **first place [(100,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the Crowd Counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * The **first place [(80,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the OpenVino track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * **Gold Award**, China College Students' "Internet+" Innovation and Entrepreneurship Competition (互联网+”全国大学生创新创业大赛全国总决赛), 2019.
 * **Grand Prize**, "Challenge Cup" Competition, Provincial (挑战杯”江苏省大学生课外学术作品竞赛), 2019.
