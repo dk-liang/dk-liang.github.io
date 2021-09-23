@@ -69,6 +69,20 @@ EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.
 EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.  
 EEE/CVF International Conference on Computer Vision (ICCV), 2021.  
 
+China Patent
+======
+## Authorized
+* 应用于数字识别的忆阻器读写电路, CN109509498B  
+* 一种基于无人机的自主式巡检违章罚停系统, CN207650996U  
+* 基于忆阻器矩阵的权值运算模块, CN209570966U  
+* 一种指纹识别智能锁, CN209874701U  
+* 一种测温枪搭载装置, CN209416505U  
+## Under review
+* 一种基于忆阻器计算的非接触式静脉显像虚拟现实眼镜, CN111481777A  
+* 基于忆阻器矩阵的指定元素权值运算方法, CN109740744A  
+* 基于FDC2214的手势识别装置, CN109491507A  
+* 一种电流型忆阻器矩阵权值运算方法, CN110163331A  
+
 Volunteer and Leadership Activities
 ======
 * Excellent volunteer teacher, Hainan, 2016. 
