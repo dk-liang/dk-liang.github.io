@@ -50,7 +50,7 @@ Competitions
 * **Gold Award**, China College Students' "Internet+" Innovation and Entrepreneurship Competition (互联网+”全国大学生创新创业大赛全国总决赛), 2019.
 * **Grand Prize**, "Challenge Cup" Competition, Provincial (挑战杯”江苏省大学生课外学术作品竞赛), 2019.
 * 全国大学生FPGA创新设计邀请赛国家级一等奖 **(3,000 RMB Bonus)**, 2019.
-* 国家级大学生创新训练计划，结题成绩优秀，入选第**[十一届全国大学生创新创业年会](http://www.moe.gov.cn/s78/A08/tongzhi/201806/t20180604_338207.html)**参展项目, 2018.
+* 国家级大学生创新训练计划 **(10,000 RMB Bonus)**，结题成绩优秀，入选第**[十一届全国大学生创新创业年会](http://www.moe.gov.cn/s78/A08/tongzhi/201806/t20180604_338207.html)**参展项目, 2018.
 * 全国大学生物联网设计竞赛华东赛区一等奖, 2018.
 * 全国大学生智能互联创新大赛华东赛区二等奖, 2018.
 * 全国大学生集成电路创新创业大赛华东赛区三等奖, 2018.
