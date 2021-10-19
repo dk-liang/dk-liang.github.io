@@ -24,10 +24,9 @@ Publications
 * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
   **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.
 
-* AutoScale: Learning to Scale for Crowd Counting and Localization.   
-Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)], 2019.
-
 ## Journal Publications
+* AutoScale: Learning to Scale for Crowd Counting.   
+Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2021. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * Cell Localization and Counting Using Direction Field Map.   
 Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
 * Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.  

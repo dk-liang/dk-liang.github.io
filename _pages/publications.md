@@ -10,15 +10,14 @@ Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal o
 	**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. [[PDF]
 * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
 **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[pdf](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/RDTM)], 2021.
-
+* AutoScale: Learning to Scale for Crowd Counting.   
+Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2021. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 ## 2020
 Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.
 Wei Xu\*, **Dingkang Liang**\*, Yixiao Zheng, Zhanyu Ma. [[pdf](https://arxiv.org/abs/2012.08149)], 2020.
 
 ## 2019
 
-* AutoScale: Learning to Scale for Crowd Counting and Localization.
-  Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)], 2019.
 * Manipulation of the electrical behaviors of Cu/MXene/SiO2/W memristor. 
   Yuqi Wang, Xinwei Liu, Yihao Chen, Wei Xu, **Dingkang Liang**, Fei Gao, Miaocheng Zhang, Subhranu Samanta, Xiao Gong, Xiaojuan Lian, Xiang Wan, Yi Tong. Applied Physics Express [[PDF](https://iopscience.iop.org/article/10.7567/1882-0786/ab4233)], 2019.
 

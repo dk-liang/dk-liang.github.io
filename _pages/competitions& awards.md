@@ -3,9 +3,11 @@ title: "Competitions&Awards"
 permalink: /competitions&awards/
 author_profile: true
 ---
+## 2021
+* The **first place** of the Crowd Counting track in Vision Meets Drone (visdrone)  challenge with ICCV 2021.
 
 ## 2020
-* The **first place** of the Crowd counting track in Vision Meets Drone (visdrone)  challenge with ECCV 2020.
+* The **first place** of the Crowd Counting track in Vision Meets Drone (visdrone)  challenge with ECCV 2020.
 
 ## 2019
 * The **first place [(100,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the Crowd counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
