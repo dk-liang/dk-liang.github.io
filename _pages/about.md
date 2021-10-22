@@ -42,11 +42,12 @@ Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong.  Applied Physics Express, 201
 
 Competitions
 ======
+* **Silver Award**, China International College Students' "Internet+" Innovation and Entrepreneurship Competition (中国国际互联网+”大学生创新创业大赛全国总决赛), 2021.
 * The **first place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ICCV 2021.
 * The **first place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ECCV 2020.
 * The **first place [(100,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the Crowd Counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * The **first place [(80,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the OpenVino track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
-* **Gold Award**, China College Students' "Internet+" Innovation and Entrepreneurship Competition (互联网+”全国大学生创新创业大赛全国总决赛), 2019.
+* **Gold Award**, China College Students' "Internet+" Innovation and Entrepreneurship Competition (中国互联网+”大学生创新创业大赛全国总决赛), 2019.
 * **Grand Prize**, "Challenge Cup" Competition, Provincial (挑战杯”江苏省大学生课外学术作品竞赛), 2019.
 * 全国大学生FPGA创新设计邀请赛国家级一等奖 **(3,000 RMB Bonus)**, 2019.
 * 国家级大学生创新训练计划 **(10,000 RMB Bonus)**，结题成绩优秀，入选第**[十一届全国大学生创新创业年会](http://www.moe.gov.cn/s78/A08/tongzhi/201806/t20180604_338207.html)**参展项目, 2018.
