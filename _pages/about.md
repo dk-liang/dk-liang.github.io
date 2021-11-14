@@ -15,6 +15,12 @@ Research
 ======
 My research interests mainly lie in crowd counting, people localization, and edge computing.
 
+News
+======
+10 / 2021:   I'm awarded **National Scholarship**  
+10 / 2021:   One paper on crowd counting and localization  is accepted by **IJCV**  
+09 / 2021:   We win 1st place in VisDrone2021 challenge on the crowd counting track.  
+
 Publications
 ======
 ## Preprints
@@ -68,6 +74,9 @@ Academic Service
 EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.  
 EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.  
 EEE/CVF International Conference on Computer Vision (ICCV), 2021.  
+
+### Journal reviewer:
+SCIENCE CHINA Information Sciences
 
 China Patent
 ======
