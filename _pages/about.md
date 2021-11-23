@@ -76,7 +76,7 @@ EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.
 EEE/CVF International Conference on Computer Vision (ICCV), 2021.  
 
 ### Journal reviewer:
-SCIENCE CHINA Information Sciences
+SCIENCE CHINA Information Sciences, IEEE TCSVT
 
 China Patent
 ======
