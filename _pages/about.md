@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 
-I am currently a Master student at Huazhong University of Science and Technology, under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/) and Prof. [Yongchao Xu](https://sites.google.com/view/yongchaoxu). I received my Bachelor’s degree at Nanjing University of Posts and Telecommunication (NJUPT) in 2019, under the supervision of Prof.Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).   
+I am currently a Master student at Huazhong University of Science and Technology, under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/), Prof. [Yu Zhou](https://www.vlrlab.net/~yuzhou/) and Prof. [Yongchao Xu](https://sites.google.com/view/yongchaoxu). I received my Bachelor’s degree at Nanjing University of Posts and Telecommunication (NJUPT) in 2019, under the supervision of Dr. Xiang Wan, Prof.Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).   
 
 Research
 ======
-My research interests mainly lie in crowd counting, people localization, and edge computing.
+My research interests mainly lie in 3D detection, crowd counting and localization.
 
 News
 ======
