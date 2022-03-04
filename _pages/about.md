@@ -24,15 +24,16 @@ News
 Publications
 ======
 ## Preprints
-* TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
-	**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)], 2021.
-	
+* An End-to-End Transformer Model for Crowd Localization.
+**Dingkang Liang**, Wei Xu, Xiang Bai. [[PDF](https://arxiv.org/abs/2202.13065)], 2021.
 * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
   **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.
 
 ## Journal Publications
+* TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
+	**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (SCIS), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
 * AutoScale: Learning to Scale for Crowd Counting.   
-Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2021. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
+Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * Cell Localization and Counting Using Direction Field Map.   
 Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
 * Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.  
@@ -71,9 +72,9 @@ Competitions
 Academic Service
 ======
 ### Conference reviewer: 
-EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.  
-EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.  
-EEE/CVF International Conference on Computer Vision (ICCV), 2021.  
+EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022.  
+EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
+European Conference on Computer Vision (ECCV): 2022.  
 
 ### Journal reviewer:
 SCIENCE CHINA Information Sciences, IEEE TCSVT
