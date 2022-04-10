@@ -17,6 +17,7 @@ My research interests mainly lie in 3D detection, crowd counting and localizatio
 
 News
 ======
+03 / 2022:   We released the first comprehensive public African text dataset.
 10 / 2021:   I'm awarded **National Scholarship**  
 10 / 2021:   One paper on crowd counting and localization  is accepted by **IJCV**  
 09 / 2021:   We win 1st place in VisDrone2021 challenge on the crowd counting track.  
@@ -30,10 +31,12 @@ Publications
   **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.
 
 ## Journal Publications
-* TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
-	**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (SCIS), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
 * AutoScale: Learning to Scale for Crowd Counting.   
-Chenfeng Xu\*, **Dingkang Liang**\*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
+Chenfeng Xu\*, **Dingkang Liang**\* (Co-first authorship), Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
+* TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
+**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (SCIS), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
+* Comprehensive Benchmark Datasets for Amharic Scene Text Detection and Recognition.  
+Wondimu Dikubab, **Dingkang Liang**, Minghui Liao, Xiang Bai. Science China Information Science (SCIS), 2022. [[PDF](https://arxiv.org/abs/2203.12165)] [[Project](https://dk-liang.github.io/HUST-ASTD/)]
 * Cell Localization and Counting Using Direction Field Map.   
 Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
 * Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.  
