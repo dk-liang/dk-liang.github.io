@@ -17,7 +17,7 @@ My research interests mainly lie in 3D detection, crowd counting and localizatio
 
 News
 ======
-03 / 2022:   We released the first comprehensive public African text dataset.
+03 / 2022:   We released the first comprehensive public African text dataset.  
 10 / 2021:   I'm awarded **National Scholarship**  
 10 / 2021:   One paper on crowd counting and localization  is accepted by **IJCV**  
 09 / 2021:   We win 1st place in VisDrone2021 challenge on the crowd counting track.  
