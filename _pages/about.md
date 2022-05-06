@@ -78,6 +78,7 @@ Academic Service
 EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022.  
 EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
 European Conference on Computer Vision (ECCV): 2022.  
+ACM Multimedia (MM): 2022  
 
 ### Journal reviewer:
 SCIENCE CHINA Information Sciences, IEEE TCSVT
@@ -86,6 +87,7 @@ China Patent
 ======
 ## Authorized
 * 应用于数字识别的忆阻器读写电路, CN109509498B  
+* 一种基于距离变换标签的密集群体计数及定位方法, CN111062280A  
 * 一种基于无人机的自主式巡检违章罚停系统, CN207650996U  
 * 基于忆阻器矩阵的权值运算模块, CN209570966U  
 * 一种指纹识别智能锁, CN209874701U  
