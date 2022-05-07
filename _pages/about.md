@@ -13,7 +13,7 @@ I am currently a Master student at Huazhong University of Science and Technology
 
 Research
 ======
-My research interests mainly lie in 3D detection, crowd counting and localization.
+My research interests mainly lie in 3D object detection, crowd counting and localization.
 
 News
 ======
@@ -74,15 +74,14 @@ Competitions
 
 Academic Service
 ======
-### Conference reviewer: 
+### Conference reviews: 
 EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022.  
 EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
 European Conference on Computer Vision (ECCV): 2022.  
 ACM Multimedia (MM): 2022  
 
-### Journal reviewer:
-SCIENCE CHINA Information Sciences, IEEE TCSVT
-
+### Journal reviews:
+IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences
 China Patent
 ======
 ## Authorized
