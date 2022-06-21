@@ -14,7 +14,6 @@ I am currently a Master student at Huazhong University of Science and Technology
 Research
 ======
 My research interests mainly lie in 3D object detection, crowd counting and localization.
-
 News
 ======
 03 / 2022:   We released the first comprehensive public African text dataset.  
@@ -49,7 +48,6 @@ Yi-Hao Chen, Wei Xu, Yu-Qi Wang, Xiang Wan, Yue-Feng Li, **Ding-Kang Liang**, Li
 Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong.  Applied Physics Express, 2018. [[paper](https://iopscience.iop.org/article/10.7567/APEX.11.114601)]
 * Ultralow-voltage albumen-gated electric-double-layer thin film transistors.  
 **Ding-Kang L**, Yi-Hao C, Wei X, et al. Acta Physica Sinica, 2018. [[paper](https://www.researchgate.net/publication/331730831_Ultralow-voltage_albumen-gated_electric-double-layer_thin_film_transistors)]
-
 Competitions
 ======
 * **Silver Award**, China International College Students' "Internet+" Innovation and Entrepreneurship Competition (中国国际互联网+”大学生创新创业大赛全国总决赛), 2021.
@@ -71,7 +69,6 @@ Competitions
 * 全国大学生FPGA创新设计邀请赛国家级二等奖, 2017.
 * “英飞凌”杯全国高校无人机创新设计应用大赛 Top 3.5% (14/400) **(3,500 RMB Bonus)**, 2017.
 * 3S杯全国大学生互联网+“三创”大赛国家三等奖**(5,000 RMB Bonus)**, 2017.  
-
 Academic Service
 ======
 ### Conference reviews: 
@@ -79,9 +76,9 @@ EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022
 EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
 European Conference on Computer Vision (ECCV): 2022.  
 ACM Multimedia (MM): 2022  
-
+International Conference on 3D Vision (3DV): 2022  
 ### Journal reviews:
-IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences
+IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences  
 China Patent
 ======
 ## Authorized
@@ -91,13 +88,11 @@ China Patent
 * 基于忆阻器矩阵的权值运算模块, CN209570966U  
 * 一种指纹识别智能锁, CN209874701U  
 * 一种测温枪搭载装置, CN209416505U  
-
 ## Under review
 * 一种基于忆阻器计算的非接触式静脉显像虚拟现实眼镜, CN111481777A  
 * 基于忆阻器矩阵的指定元素权值运算方法, CN109740744A  
 * 基于FDC2214的手势识别装置, CN109491507A  
 * 一种电流型忆阻器矩阵权值运算方法, CN110163331A  
-
 Volunteer and Leadership Activities
 ======
 * Excellent volunteer teacher, Hainan, 2016. 
