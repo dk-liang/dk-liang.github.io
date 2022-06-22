@@ -13,10 +13,11 @@ I am currently a Master student at Huazhong University of Science and Technology
 
 Research
 ======
-My research interests mainly lie in 3D object detection, crowd counting and localization.
+My research interests mainly lie in 3D object detection, crowd counting and localization.  
+
 News
 ======
-03 / 2022:   We released the first comprehensive public African text dataset.  
+03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)].  
 10 / 2021:   I'm awarded **National Scholarship**  
 10 / 2021:   One paper on crowd counting and localization  is accepted by **IJCV**  
 09 / 2021:   We win 1st place in VisDrone2021 challenge on the crowd counting track.  
@@ -24,11 +25,10 @@ News
 Publications
 ======
 ## Preprints
-* An End-to-End Transformer Model for Crowd Localization.
+* An End-to-End Transformer Model for Crowd Localization.  
 **Dingkang Liang**, Wei Xu, Xiang Bai. [[PDF](https://arxiv.org/abs/2202.13065)], 2021.
 * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
-  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.
-
+ **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.  
 ## Journal Publications
 * AutoScale: Learning to Scale for Crowd Counting.   
 Chenfeng Xu\*, **Dingkang Liang**\* (Co-first authorship), Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
@@ -48,6 +48,7 @@ Yi-Hao Chen, Wei Xu, Yu-Qi Wang, Xiang Wan, Yue-Feng Li, **Ding-Kang Liang**, Li
 Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong.  Applied Physics Express, 2018. [[paper](https://iopscience.iop.org/article/10.7567/APEX.11.114601)]
 * Ultralow-voltage albumen-gated electric-double-layer thin film transistors.  
 **Ding-Kang L**, Yi-Hao C, Wei X, et al. Acta Physica Sinica, 2018. [[paper](https://www.researchgate.net/publication/331730831_Ultralow-voltage_albumen-gated_electric-double-layer_thin_film_transistors)]
+
 Competitions
 ======
 * **Silver Award**, China International College Students' "Internet+" Innovation and Entrepreneurship Competition (中国国际互联网+”大学生创新创业大赛全国总决赛), 2021.
@@ -69,6 +70,7 @@ Competitions
 * 全国大学生FPGA创新设计邀请赛国家级二等奖, 2017.
 * “英飞凌”杯全国高校无人机创新设计应用大赛 Top 3.5% (14/400) **(3,500 RMB Bonus)**, 2017.
 * 3S杯全国大学生互联网+“三创”大赛国家三等奖**(5,000 RMB Bonus)**, 2017.  
+
 Academic Service
 ======
 ### Conference reviews: 
@@ -79,6 +81,7 @@ ACM Multimedia (MM): 2022
 International Conference on 3D Vision (3DV): 2022  
 ### Journal reviews:
 IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences  
+
 China Patent
 ======
 ## Authorized
@@ -93,6 +96,7 @@ China Patent
 * 基于忆阻器矩阵的指定元素权值运算方法, CN109740744A  
 * 基于FDC2214的手势识别装置, CN109491507A  
 * 一种电流型忆阻器矩阵权值运算方法, CN110163331A  
+
 Volunteer and Leadership Activities
 ======
 * Excellent volunteer teacher, Hainan, 2016. 
