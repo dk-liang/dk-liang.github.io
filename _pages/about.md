@@ -17,7 +17,8 @@ My research interests mainly lie in 3D object detection, crowd counting and loca
 
 News
 ======
-03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)].  
+06 / 2022: Two papers accepted by ECCV 2022  
+03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
 10 / 2021:   I'm awarded **National Scholarship**  
 10 / 2021:   One paper on crowd counting and localization  is accepted by **IJCV**  
 09 / 2021:   We win 1st place in VisDrone2021 challenge on the crowd counting track.  
@@ -29,7 +30,7 @@ Publications
 **Dingkang Liang**, Wei Xu, Xiang Bai. [[PDF](https://arxiv.org/abs/2202.13065)], 2021.
 * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.  
-## Journal Publications
+## Selected Publications
 * AutoScale: Learning to Scale for Crowd Counting.   
 Chenfeng Xu\*, **Dingkang Liang**\* (Co-first authorship), Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
@@ -37,17 +38,11 @@ Chenfeng Xu\*, **Dingkang Liang**\* (Co-first authorship), Yongchao Xu, Song Bai
 * Comprehensive Benchmark Datasets for Amharic Scene Text Detection and Recognition.  
 Wondimu Dikubab, **Dingkang Liang**, Minghui Liao, Xiang Bai. Science China Information Science (SCIS), 2022. [[PDF](https://arxiv.org/abs/2203.12165)] [[Project](https://dk-liang.github.io/HUST-ASTD/)]
 * Cell Localization and Counting Using Direction Field Map.   
-Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
+Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
 * Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.  
-Wei Xu, **Dingkang Liang**, Yixiao Zheng, Zhanyu Ma. IEEE Signal Processing  Letters (SPL), 2021. [[paper](https://arxiv.org/abs/2012.08149)] [[code](https://github.com/PRIS-CV/DSACA.git)]
-* Manipulation of the electrical behaviors of Cu/MXene/SiO2/W memristor.   
-Yuqi Wang, Xinwei Liu, Yihao Chen, Wei Xu, **Dingkang Liang**, Fei Gao, Miaocheng Zhang, Subhranu Samanta, Xiao Gong, Xiaojuan Lian, Xiang Wan, Yi Tong. Applied Physics Express, 2019. [[paper](https://iopscience.iop.org/article/10.7567/1882-0786/ab4233)]
-* Fabrication of synaptic memristor based on two-dimensional material MXene and realization of both long-term and short-term plasticity.  
-Yi-Hao Chen, Wei Xu, Yu-Qi Wang, Xiang Wan, Yue-Feng Li, **Ding-Kang Liang**, Li-Qun Lu, Xin-Wei Liu, Xiao-Juan Lian, Er-Tao Hu, Yu-Feng Guo, Jian-Guang Xu, Yi Tong, Jian Xiao.  Acta Physica Sinica, 2019. [[paper](http://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.68.20182306)]
+Wei Xu, **Dingkang Liang**, Yixiao Zheng, Zhanyu Ma. IEEE Signal Processing  Letters (IEEE SPL), 2021. [[paper](https://arxiv.org/abs/2012.08149)] [[code](https://github.com/PRIS-CV/DSACA.git)]
 * Hardware implementation of classical conditioning with iron-oxide-based memristors.   
 Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong.  Applied Physics Express, 2018. [[paper](https://iopscience.iop.org/article/10.7567/APEX.11.114601)]
-* Ultralow-voltage albumen-gated electric-double-layer thin film transistors.  
-**Ding-Kang L**, Yi-Hao C, Wei X, et al. Acta Physica Sinica, 2018. [[paper](https://www.researchgate.net/publication/331730831_Ultralow-voltage_albumen-gated_electric-double-layer_thin_film_transistors)]
 
 Competitions
 ======
