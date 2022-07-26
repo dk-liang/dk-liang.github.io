@@ -17,7 +17,7 @@ My research interests mainly lie in 3D object detection, crowd counting and loca
 
 News
 ======
-06 / 2022: Two papers accepted by ECCV 2022  
+06 / 2022:   Two papers accepted by ECCV 2022  
 03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
 10 / 2021:   I'm awarded **National Scholarship**  
 10 / 2021:   One paper on crowd counting and localization  is accepted by **IJCV**  
@@ -31,6 +31,8 @@ Publications
 * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.  
 ## Selected Publications
+* When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
+Bohan Li, Ye Yuan, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. ECCV, 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)]  
 * AutoScale: Learning to Scale for Crowd Counting.   
 Chenfeng Xu\*, **Dingkang Liang**\* (Co-first authorship), Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
