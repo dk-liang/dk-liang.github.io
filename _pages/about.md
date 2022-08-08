@@ -25,14 +25,15 @@ News
 
 Publications
 ======
-## Preprints
-* An End-to-End Transformer Model for Crowd Localization.  
-**Dingkang Liang**, Wei Xu, Xiang Bai. [[PDF](https://arxiv.org/abs/2202.13065)], 2021.
-* Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.   
+## Preprints 
+ * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.  
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.  
+
 ## Selected Publications
+* An End-to-End Transformer Model for Crowd Localization.  
+**Dingkang Liang**, Wei Xu, Xiang Bai. ECCV 2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].
 * When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
-Bohan Li, Ye Yuan, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. ECCV, 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)]  
+Bohan Li, Ye Yuan, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. ECCV, 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
 * AutoScale: Learning to Scale for Crowd Counting.   
 Chenfeng Xu\*, **Dingkang Liang**\* (Co-first authorship), Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
@@ -70,13 +71,14 @@ Competitions
 
 Academic Service
 ======
-### Conference reviews: 
+## Conference reviews: 
 EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022.  
 EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
 European Conference on Computer Vision (ECCV): 2022.  
 ACM Multimedia (MM): 2022  
 International Conference on 3D Vision (3DV): 2022  
-### Journal reviews:
+
+## Journal reviews:
 IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences  
 
 China Patent
@@ -88,6 +90,7 @@ China Patent
 * 基于忆阻器矩阵的权值运算模块, CN209570966U  
 * 一种指纹识别智能锁, CN209874701U  
 * 一种测温枪搭载装置, CN209416505U  
+
 ## Under review
 * 一种基于忆阻器计算的非接触式静脉显像虚拟现实眼镜, CN111481777A  
 * 基于忆阻器矩阵的指定元素权值运算方法, CN109740744A  
