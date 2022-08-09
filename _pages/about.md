@@ -17,6 +17,7 @@ My research interests mainly lie in 3D object detection, crowd counting and loca
 
 News
 ======
+08 / 2022:   One paper accepted by IEEE TMM   
 06 / 2022:   Two papers accepted by ECCV 2022  
 03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
 10 / 2021:   I'm awarded **National Scholarship**  
