@@ -17,6 +17,7 @@ My research interests mainly lie in 3D object detection, crowd counting and loca
 
 News
 ======
+08 / 2022:   Invited as a reviewer of IEEE TPAMI  
 08 / 2022:   One paper accepted by IEEE TMM   
 06 / 2022:   Two papers accepted by ECCV 2022  
 03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
@@ -80,7 +81,7 @@ ACM Multimedia (MM): 2022
 International Conference on 3D Vision (3DV): 2022  
 
 ## Journal reviews:
-IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences  
+IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences  
 
 China Patent
 ======
