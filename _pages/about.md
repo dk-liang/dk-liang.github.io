@@ -8,36 +8,36 @@ redirect_from:
   - /about.html
 ---
 
+I am currently a PHD student at Huazhong University of Science and Technology, under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/).
+My research interests mainly lie in 3D object detection, crowd counting, and localization.
 
-I am currently a Master student at Huazhong University of Science and Technology, under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/), Prof. [Yu Zhou](https://www.vlrlab.net/~yuzhou/) and Prof. [Yongchao Xu](https://sites.google.com/view/yongchaoxu). I received my Bachelor’s degree at Nanjing University of Posts and Telecommunication (NJUPT) in 2019, under the supervision of Dr. Xiang Wan, Prof.Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).   
-
-Research
+Education
 ======
-My research interests mainly lie in 3D object detection, crowd counting and localization.  
+* **PHD**: Huazhong University of Science and Technology (2022–2026), unde the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/).  
+* **MA**：Huazhong University of Science and Technology (2019–2022), under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/), Prof. [Yongchao Xu](https://sites.google.com/view/yongchaoxu) and Prof. [Yu Zhou](https://www.vlrlab.net/~yuzhou/).  
+* **BA**：Nanjing University of Posts and Telecommunication (2015-2019), under the supervision of Dr. Xiang Wan, Prof. Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).  
 
 News
 ======
-08 / 2022:   Invited as a reviewer of IEEE TPAMI  
-08 / 2022:   One paper accepted by IEEE TMM   
-06 / 2022:   Two papers accepted by ECCV 2022  
-03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
+08 / 2022:   Invited as a **reviewer of IEEE TPAMI**  
+08 / 2022:   One paper accepted by **IEEE TMM**   
+06 / 2022:   Two papers accepted by **ECCV 2022**  
+03 / 2022:   We released the first comprehensive publizc African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
 10 / 2021:   I'm awarded **National Scholarship**  
-10 / 2021:   One paper on crowd counting and localization  is accepted by **IJCV**  
-09 / 2021:   We win 1st place in VisDrone2021 challenge on the crowd counting track.  
+10 / 2021:   One paper accepted by **IJCV**  
+09 / 2021:   We win 1st place in the VisDrone2021 challenge on the crowd counting track.  
 
 Publications
 ======
-## Preprints 
- * Focal Inverse Distance Transform Maps for Crowd Localization and Counting in Dense Crowd.  
- **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. [[PDF](https://arxiv.org/abs/2102.07925)] [[code](https://github.com/dk-liang/FIDTM)], 2021.  
-
 ## Selected Publications
+ * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
+ **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022.
 * An End-to-End Transformer Model for Crowd Localization.  
-**Dingkang Liang**, Wei Xu, Xiang Bai. ECCV 2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].
+**Dingkang Liang**, Wei Xu, Xiang Bai. European Conference on Computer Vision (ECCV),  2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].
 * When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
-Bohan Li, Ye Yuan, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. ECCV, 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
+Bohan Li, Ye Yuan, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. European Conference on Computer Vision (ECCV), 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
 * AutoScale: Learning to Scale for Crowd Counting.   
-Chenfeng Xu\*, **Dingkang Liang**\* (Co-first authorship), Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
+Chenfeng Xu\*, **Dingkang Liang\* (Co-first authorship)**, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
 **Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (SCIS), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
 * Comprehensive Benchmark Datasets for Amharic Scene Text Detection and Recognition.  
@@ -51,11 +51,12 @@ Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong.  Applied Physics Express, 201
 
 Competitions
 ======
+* The **4th place** of the 3D object detection track in CSIG-challenge 2022.
 * **Silver Award**, China International College Students' "Internet+" Innovation and Entrepreneurship Competition (中国国际互联网+”大学生创新创业大赛全国总决赛), 2021.
-* The **first place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ICCV 2021.
-* The **first place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ECCV 2020.
-* The **first place [(100,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the Crowd Counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
-* The **first place [(80,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the OpenVino track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
+* The **1st place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ICCV 2021.
+* The **1st place** of the Crowd Counting track in Vision Meets Drone (VisDrone)  challenge with ECCV 2020.
+* The **1st place [(100,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the Crowd Counting track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
+* The **1st place [(80,000 RMB Bonus)](https://www.cvmart.net/list/ECV2019)** of the OpenVino track in CV101 (held by Extremevision and Intel), Shenzhen, China, 2019.
 * **Gold Award**, China College Students' "Internet+" Innovation and Entrepreneurship Competition (中国互联网+”大学生创新创业大赛全国总决赛), 2019.
 * **Grand Prize**, "Challenge Cup" Competition, Provincial (挑战杯”江苏省大学生课外学术作品竞赛), 2019.
 * 全国大学生FPGA创新设计邀请赛国家级一等奖 **(3,000 RMB Bonus)**, 2019.
