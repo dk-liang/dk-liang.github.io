@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am currently a PHD student at Huazhong University of Science and Technology, under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/).
-My research interests mainly lie in 3D object detection, crowd counting, and localization.
+My research interests mainly lie in 3D object detection, crowd analysis..
 
 Education
 ======
@@ -17,15 +17,28 @@ Education
 * **MA**：Huazhong University of Science and Technology (2019–2022), under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/), Prof. [Yongchao Xu](https://sites.google.com/view/yongchaoxu) and Prof. [Yu Zhou](https://www.vlrlab.net/~yuzhou/).  
 * **BA**：Nanjing University of Posts and Telecommunication (2015-2019), under the supervision of Dr. Xiang Wan, Prof. Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).  
 
+Academic Services
+======
+## Conference reviewer
+EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022.  
+EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
+European Conference on Computer Vision (ECCV): 2022.  
+ACM Multimedia (MM): 2022  
+International Conference on 3D Vision (3DV): 2022  
+
+## Journal reviewer
+IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences  
+
 News
 ======
+09/  2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
 08 / 2022:   Invited as a **reviewer of IEEE TPAMI**  
 08 / 2022:   One paper accepted by **IEEE TMM**   
 06 / 2022:   Two papers accepted by **ECCV 2022**  
-03 / 2022:   We released the first comprehensive publizc African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
+03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
 10 / 2021:   I'm awarded **National Scholarship**  
 10 / 2021:   One paper accepted by **IJCV**  
-09 / 2021:   We win 1st place in the VisDrone2021 challenge on the crowd counting track.  
+09 / 2021:   We win **1st** place in the VisDrone2021 (ICCV) challenge on the crowd counting track.  
 
 Publications
 ======
@@ -72,22 +85,11 @@ Competitions
 * “英飞凌”杯全国高校无人机创新设计应用大赛 Top 3.5% (14/400) **(3,500 RMB Bonus)**, 2017.
 * 3S杯全国大学生互联网+“三创”大赛国家三等奖**(5,000 RMB Bonus)**, 2017.  
 
-Academic Service
-======
-## Conference reviews: 
-EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022.  
-EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
-European Conference on Computer Vision (ECCV): 2022.  
-ACM Multimedia (MM): 2022  
-International Conference on 3D Vision (3DV): 2022  
-
-## Journal reviews:
-IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences  
-
 China Patent
 ======
 ## Authorized
 * 应用于数字识别的忆阻器读写电路, CN109509498B  
+* 一种基于忆阻器的神经网络单元电路, CN201910280013.1  
 * 一种基于距离变换标签的密集群体计数及定位方法, CN111062280A  
 * 一种基于无人机的自主式巡检违章罚停系统, CN207650996U  
 * 基于忆阻器矩阵的权值运算模块, CN209570966U  
@@ -109,4 +111,3 @@ Volunteer and Leadership Activities
 * Monitor, Electromagnetic fields and wireless technology, Nanjing University of Posts and Telecommunication, Sep 2015 ~ Jun 2019. (Our class won the award of the advanced class of Jiangsu Province.)
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a"></script>
-
