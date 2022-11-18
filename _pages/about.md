@@ -20,7 +20,7 @@ Education
 Academic Services
 ======
 ## Conference reviewer
-EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022.  
+EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022, 2023.  
 EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
 European Conference on Computer Vision (ECCV): 2022.  
 ACM Multimedia (MM): 2022  
@@ -44,7 +44,7 @@ Publications
 ======
 ## Selected Publications
  * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
- **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022.
+ **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
 * An End-to-End Transformer Model for Crowd Localization.  
 **Dingkang Liang**, Wei Xu, Xiang Bai. European Conference on Computer Vision (ECCV),  2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].
 * When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
