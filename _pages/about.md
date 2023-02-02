@@ -27,11 +27,12 @@ ACM Multimedia (MM): 2022
 International Conference on 3D Vision (3DV): 2022  
 
 ## Journal reviewer
-IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIENCE CHINA Information Sciences  
+IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIS  
 
 News
 ======
-09/  2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
+01 /  2023:  One paper accepted by **ICRA 2022**   
+09 /  2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
 08 / 2022:   Invited as a **reviewer of IEEE TPAMI**  
 08 / 2022:   One paper accepted by **IEEE TMM**   
 06 / 2022:   Two papers accepted by **ECCV 2022**  
@@ -43,6 +44,8 @@ News
 Publications
 ======
 ## Selected Publications
+ * DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection.  
+ Jingyu Li\*, Zhe Liu\*, Jinghua Liu, **Dingkang Liang# (Corresponding author)**.  IEEE International Conference on Robotics and Automation (ICRA), 2022.
  * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
 * An End-to-End Transformer Model for Crowd Localization.  
