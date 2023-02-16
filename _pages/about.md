@@ -15,7 +15,7 @@ Education
 ======
 * **PHD**: Huazhong University of Science and Technology (2022–2026), unde the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/).  
 * **MA**：Huazhong University of Science and Technology (2019–2022), under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/), Prof. [Yongchao Xu](https://sites.google.com/view/yongchaoxu) and Prof. [Yu Zhou](https://www.vlrlab.net/~yuzhou/).  
-* **BA**：Nanjing University of Posts and Telecommunication (2015-2019), under the supervision of Dr. Xiang Wan, Prof. Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).  
+* **BA**： Nanjing University of Posts and Telecommunication (2015-2019), under the supervision of Dr. Xiang Wan, Prof. Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).  
 
 Academic Services
 ======
@@ -31,7 +31,8 @@ IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIS
 
 News
 ======
-01 /  2023:  One paper accepted by **ICRA 2022**   
+02 /  2023:  One paper accepted by **ICASSP 2023**   
+01 /  2023:  One paper accepted by **ICRA 2023**   
 09 /  2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
 08 / 2022:   Invited as a **reviewer of IEEE TPAMI**  
 08 / 2022:   One paper accepted by **IEEE TMM**   
@@ -45,13 +46,13 @@ Publications
 ======
 ## Selected Publications
  * DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection.  
- Jingyu Li\*, Zhe Liu\*, Jinghua Liu, **Dingkang Liang# (Corresponding author)**.  IEEE International Conference on Robotics and Automation (ICRA), 2022.
- * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
+ Jingyu Li\*, Zhe Liu\*, Jinghua Liu, **Dingkang Liang# (Corresponding author)**.  IEEE International Conference on Robotics and Automation (ICRA), 2023.  
+* Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
 * An End-to-End Transformer Model for Crowd Localization.  
-**Dingkang Liang**, Wei Xu, Xiang Bai. European Conference on Computer Vision (ECCV),  2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].
+**Dingkang Liang**, Wei Xu, Xiang Bai. European Conference on Computer Vision (ECCV), 2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].
 * When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
-Bohan Li, Ye Yuan, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. European Conference on Computer Vision (ECCV), 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
+Bohan Li\*, Ye Yuan\*, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. European Conference on Computer Vision (ECCV), 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
 * AutoScale: Learning to Scale for Crowd Counting.   
 Chenfeng Xu\*, **Dingkang Liang\* (Co-first authorship)**, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
