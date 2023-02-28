@@ -31,6 +31,7 @@ IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIS
 
 News
 ======
+03 / 2023：Two papers accepted by **CVPR 2023**  
 02 /  2023:  One paper accepted by **ICASSP 2023**   
 01 /  2023:  One paper accepted by **ICRA 2023**   
 09 /  2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
