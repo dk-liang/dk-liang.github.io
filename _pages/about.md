@@ -47,7 +47,7 @@ Publications
 ======
 ## Selected Publications
  * DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection.  
- Jingyu Li\*, Zhe Liu\*, Jinghua Liu, **Dingkang Liang# (Corresponding author)**.  IEEE International Conference on Robotics and Automation (ICRA), 2023.  
+ Jingyu Li\*, Zhe Liu\*, Jinghua  Hou, **Dingkang Liang# (Corresponding author)**.  IEEE International Conference on Robotics and Automation (ICRA), 2023.  
 * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
 * An End-to-End Transformer Model for Crowd Localization.  
@@ -64,8 +64,6 @@ Wondimu Dikubab, **Dingkang Liang**, Minghui Liao, Xiang Bai. Science China Info
 Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
 * Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.  
 Wei Xu, **Dingkang Liang**, Yixiao Zheng, Zhanyu Ma. IEEE Signal Processing  Letters (IEEE SPL), 2021. [[paper](https://arxiv.org/abs/2012.08149)] [[code](https://github.com/PRIS-CV/DSACA.git)]
-* Hardware implementation of classical conditioning with iron-oxide-based memristors.   
-Wan X, **Liang D**, Gao F, Xiaojuan Lian, Yi Tong.  Applied Physics Express, 2018. [[paper](https://iopscience.iop.org/article/10.7567/APEX.11.114601)]
 
 Competitions
 ======
