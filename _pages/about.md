@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am currently a PHD student at Huazhong University of Science and Technology, under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/).
-My research interests mainly lie in 3D object detection, crowd analysis..
+My research interests mainly lie in 3D object detection, crowd analysis.
 
 Education
 ======
@@ -17,11 +17,15 @@ Education
 * **MA**：Huazhong University of Science and Technology (2019–2022), under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/), Prof. [Yongchao Xu](https://sites.google.com/view/yongchaoxu) and Prof. [Yu Zhou](https://www.vlrlab.net/~yuzhou/).  
 * **BA**： Nanjing University of Posts and Telecommunication (2015-2019), under the supervision of Dr. Xiang Wan, Prof. Jian Xiao and Prof. [Yi Tong](http://rsc.njupt.edu.cn/2017/1206/c579a118874/page.htm).  
 
+Experience 
+======
+08 / 2022 - current: Research Intern at Baidu (Mentors are [Zhikang Zou](https://bigteacher-777.github.io/) and [Xiaoqing Ye](https://shuluoshu.github.io/))
+
 Academic Services
 ======
 ## Conference reviewer
 EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022, 2023.  
-EEE/CVF International Conference on Computer Vision (ICCV): 2021.  
+EEE/CVF International Conference on Computer Vision (ICCV): 2021, 2023.  
 European Conference on Computer Vision (ECCV): 2022.  
 ACM Multimedia (MM): 2022  
 International Conference on 3D Vision (3DV): 2022  
@@ -32,9 +36,9 @@ IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIS
 News
 ======
 03 / 2023：Two papers accepted by **CVPR 2023**  
-02 /  2023:  One paper accepted by **ICASSP 2023**   
-01 /  2023:  One paper accepted by **ICRA 2023**   
-09 /  2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
+02 / 2023:  One paper accepted by **ICASSP 2023**   
+01 / 2023:  One paper accepted by **ICRA 2023**   
+09 / 2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
 08 / 2022:   Invited as a **reviewer of IEEE TPAMI**  
 08 / 2022:   One paper accepted by **IEEE TMM**   
 06 / 2022:   Two papers accepted by **ECCV 2022**  
@@ -46,8 +50,12 @@ News
 Publications
 ======
 ## Selected Publications
- * DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection.  
- Jingyu Li\*, Zhe Liu\*, Jinghua  Hou, **Dingkang Liang# (Corresponding author)**.  IEEE International Conference on Robotics and Automation (ICRA), 2023.  
+* CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.  
+**Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023.  
+* SOOD: Towards Semi-Supervised Oriented Object Detection.  
+Wei Hua\*, **Dingkang Liang* (Co-first authorship)**, Jingyu Li, XiaoLong Liu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023.   
+* DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection.  
+ Jingyu Li\*, Zhe Liu\*, Jinghua  Hou, **Dingkang Liang# (Corresponding author)**.  IEEE International Conference on Robotics and Automation (ICRA), 2023. [[pdf](https://arxiv.org/abs/2303.05079)] [[code](https://github.com/hust-jy/DDS3D)]  
 * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
 * An End-to-End Transformer Model for Crowd Localization.  
