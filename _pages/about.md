@@ -54,7 +54,7 @@ Publications
 * CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.  
 **Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. [[pdf](https://arxiv.org/abs/2304.04231)] [[code](https://github.com/dk-liang/CrowdCLIP)]
 * SOOD: Towards Semi-Supervised Oriented Object Detection.  
-Wei Hua\*, **Dingkang Liang\* **, Jingyu Li, XiaoLong Liu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. [[pdf](https://arxiv.org/abs/2304.04515)] [[code](https://github.com/HamPerdredes/SOOD)] 
+Wei Hua\*, **Dingkang Liang\***, Jingyu Li, XiaoLong Liu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. [[pdf](https://arxiv.org/abs/2304.04515)] [[code](https://github.com/HamPerdredes/SOOD)] 
 * DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection.  
  Jingyu Li\*, Zhe Liu\*, Jinghua  Hou, **Dingkang Liang†**.  IEEE International Conference on Robotics and Automation (ICRA), 2023. [[pdf](https://arxiv.org/abs/2303.05079)] [[code](https://github.com/hust-jy/DDS3D)]  
 * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
