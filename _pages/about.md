@@ -49,13 +49,14 @@ News
 
 Publications
 ======
-## Selected Publications
+## Selected Publications 
+(* equal contribution, † corresponding author)  
 * CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.  
-**Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023.  
+**Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. [[pdf](https://arxiv.org/abs/2304.04231)] [[code](https://github.com/dk-liang/CrowdCLIP)]
 * SOOD: Towards Semi-Supervised Oriented Object Detection.  
-Wei Hua\*, **Dingkang Liang* (Co-first authorship)**, Jingyu Li, XiaoLong Liu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023.   
+Wei Hua\*, **Dingkang Liang\* **, Jingyu Li, XiaoLong Liu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. [[pdf](https://arxiv.org/abs/2304.04515)] [[code](https://github.com/HamPerdredes/SOOD)] 
 * DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection.  
- Jingyu Li\*, Zhe Liu\*, Jinghua  Hou, **Dingkang Liang# (Corresponding author)**.  IEEE International Conference on Robotics and Automation (ICRA), 2023. [[pdf](https://arxiv.org/abs/2303.05079)] [[code](https://github.com/hust-jy/DDS3D)]  
+ Jingyu Li\*, Zhe Liu\*, Jinghua  Hou, **Dingkang Liang†**.  IEEE International Conference on Robotics and Automation (ICRA), 2023. [[pdf](https://arxiv.org/abs/2303.05079)] [[code](https://github.com/hust-jy/DDS3D)]  
 * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
 * An End-to-End Transformer Model for Crowd Localization.  
@@ -63,7 +64,7 @@ Wei Hua\*, **Dingkang Liang* (Co-first authorship)**, Jingyu Li, XiaoLong Liu, Z
 * When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
 Bohan Li\*, Ye Yuan\*, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. European Conference on Computer Vision (ECCV), 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
 * AutoScale: Learning to Scale for Crowd Counting.   
-Chenfeng Xu\*, **Dingkang Liang\* (Co-first authorship)**, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
+Chenfeng Xu\*, **Dingkang Liang\* **, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
 **Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (SCIS), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
 * Comprehensive Benchmark Datasets for Amharic Scene Text Detection and Recognition.  
@@ -106,12 +107,6 @@ China Patent
 * 基于忆阻器矩阵的权值运算模块, CN209570966U  
 * 一种指纹识别智能锁, CN209874701U  
 * 一种测温枪搭载装置, CN209416505U  
-
-## Under review
-* 一种基于忆阻器计算的非接触式静脉显像虚拟现实眼镜, CN111481777A  
-* 基于忆阻器矩阵的指定元素权值运算方法, CN109740744A  
-* 基于FDC2214的手势识别装置, CN109491507A  
-* 一种电流型忆阻器矩阵权值运算方法, CN110163331A  
 
 Volunteer and Leadership Activities
 ======
