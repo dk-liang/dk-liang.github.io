@@ -27,6 +27,7 @@ Academic Services
 EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022, 2023.  
 EEE/CVF International Conference on Computer Vision (ICCV): 2021, 2023.  
 European Conference on Computer Vision (ECCV): 2022.  
+Conference on Neural Information Processing Systems (NeurIPS): 2023  
 ACM Multimedia (MM): 2022  
 International Conference on 3D Vision (3DV): 2022  
 
@@ -35,6 +36,7 @@ IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIS
 
 News
 ======
+04 / 2023:  Invited as a **reviewer of NeurIPS 2023**   
 03 / 2023：Two papers accepted by **CVPR 2023**  
 02 / 2023:  One paper accepted by **ICASSP 2023**   
 01 / 2023:  One paper accepted by **ICRA 2023**   
