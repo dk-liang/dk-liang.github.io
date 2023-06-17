@@ -52,22 +52,32 @@ News
 
 Publications
 ======
-## Selected Publications 
 (* equal contribution, † corresponding author)  
+## Preprint
+SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model.  
+DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zhe Liu, Xiang Bai. [[pdf](https://arxiv.org/abs/2306.02245)] [[code](https://github.com/DYZhang09/SAM3D)]
+
+## Conference
 * CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.  
-**Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. [[pdf](https://arxiv.org/abs/2304.04231)] [[code](https://github.com/dk-liang/CrowdCLIP)]
+**Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023. [[pdf](https://arxiv.org/abs/2304.04231)] [[code](https://github.com/dk-liang/CrowdCLIP)]
 * SOOD: Towards Semi-Supervised Oriented Object Detection.  
-Wei Hua\*, **Dingkang Liang\***, Jingyu Li, XiaoLong Liu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. [[pdf](https://arxiv.org/abs/2304.04515)] [[code](https://github.com/HamPerdredes/SOOD)] 
+Wei Hua\*, **Dingkang Liang\***, Jingyu Li, XiaoLong Liu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023. [[pdf](https://arxiv.org/abs/2304.04515)] [[code](https://github.com/HamPerdredes/SOOD)] 
 * DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection.  
- Jingyu Li\*, Zhe Liu\*, Jinghua  Hou, **Dingkang Liang†**.  IEEE International Conference on Robotics and Automation (ICRA), 2023. [[pdf](https://arxiv.org/abs/2303.05079)] [[code](https://github.com/hust-jy/DDS3D)]  
+ Jingyu Li\*, Zhe Liu\*, Jinghua  Hou, **Dingkang Liang†**.  IEEE International Conference on Robotics and Automation (**ICRA**), 2023. [[pdf](https://arxiv.org/abs/2303.05079)] [[code](https://github.com/hust-jy/DDS3D)]  
+* Super-Resolution Information Enhancement For Crowd Counting.   
+Jiahao Xie, Wei Xu, **Dingkang Liang**, Zhanyu Ma, Kongming Liang, Weidong Liu, Rui Wang, Ling Jin. IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**), 2023. [[pdf](https://ieeexplore.ieee.org/abstract/document/10097102/)] [[code](https://github.com/PRIS-CV/MSSRM)].  
+* Visual Information Extraction in the Wild: Practical Dataset and End-to-end Solution.   
+Jianfeng Kuang, Wei Hua, **Dingkang Liang**, Mingkun Yang, Deqiang Jiang, Bo Ren, Yu Zhou, Xiang Bai. The *International Conference on Document Analysis and Recognition* (***ICDAR***), 2023. [[pdf](https://arxiv.org/abs/2305.07498)] [[code](https://github.com/jfkuang/CFAM)].  
+* An End-to-End Transformer Model for Crowd Localization.  
+**Dingkang Liang**, Wei Xu, Xiang Bai. European Conference on Computer Vision (**ECCV**), 2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].  
+*  When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
+Bohan Li\*, Ye Yuan\*, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. European Conference on Computer Vision (**ECCV**), 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
+
+## Journal 
 * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
-* An End-to-End Transformer Model for Crowd Localization.  
-**Dingkang Liang**, Wei Xu, Xiang Bai. European Conference on Computer Vision (ECCV), 2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].
-* When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
-Bohan Li\*, Ye Yuan\*, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. European Conference on Computer Vision (ECCV), 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
 * AutoScale: Learning to Scale for Crowd Counting.   
-Chenfeng Xu\*, **Dingkang Liang\* **, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
+Chenfeng Xu\*, **Dingkang Liang* **, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
 **Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (SCIS), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
 * Comprehensive Benchmark Datasets for Amharic Scene Text Detection and Recognition.  
