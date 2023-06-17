@@ -52,9 +52,9 @@ News
 
 Publications
 ======
-(* equal contribution, † corresponding author)  
+(* Equal contribution, † Corresponding author)  
 ## Preprint
-SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model.  
+* SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model.  
 DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zhe Liu, Xiang Bai. [[pdf](https://arxiv.org/abs/2306.02245)] [[code](https://github.com/DYZhang09/SAM3D)]
 
 ## Conference
@@ -67,7 +67,7 @@ Wei Hua\*, **Dingkang Liang\***, Jingyu Li, XiaoLong Liu, Zhikang Zou, Xiaoqing 
 * Super-Resolution Information Enhancement For Crowd Counting.   
 Jiahao Xie, Wei Xu, **Dingkang Liang**, Zhanyu Ma, Kongming Liang, Weidong Liu, Rui Wang, Ling Jin. IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**), 2023. [[pdf](https://ieeexplore.ieee.org/abstract/document/10097102/)] [[code](https://github.com/PRIS-CV/MSSRM)].  
 * Visual Information Extraction in the Wild: Practical Dataset and End-to-end Solution.   
-Jianfeng Kuang, Wei Hua, **Dingkang Liang**, Mingkun Yang, Deqiang Jiang, Bo Ren, Yu Zhou, Xiang Bai. The *International Conference on Document Analysis and Recognition* (***ICDAR***), 2023. [[pdf](https://arxiv.org/abs/2305.07498)] [[code](https://github.com/jfkuang/CFAM)].  
+Jianfeng Kuang, Wei Hua, **Dingkang Liang**, Mingkun Yang, Deqiang Jiang, Bo Ren, Yu Zhou, Xiang Bai. The International Conference on Document Analysis and Recognition (**ICDAR**), 2023. [[pdf](https://arxiv.org/abs/2305.07498)] [[code](https://github.com/jfkuang/CFAM)].  
 * An End-to-End Transformer Model for Crowd Localization.  
 **Dingkang Liang**, Wei Xu, Xiang Bai. European Conference on Computer Vision (**ECCV**), 2022. [[pdf](https://arxiv.org/abs/2202.13065)] [[code](https://github.com/dk-liang/CLTR)] [[project](https://dk-liang.github.io/CLTR/)].  
 *  When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition.  
@@ -75,17 +75,17 @@ Bohan Li\*, Ye Yuan\*, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, We
 
 ## Journal 
 * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
- **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (IEEE TMM), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
+ **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (**IEEE TMM**), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
 * AutoScale: Learning to Scale for Crowd Counting.   
-Chenfeng Xu\*, **Dingkang Liang* **, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (IJCV), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
+Chenfeng Xu\*, **Dingkang Liang\***, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (**IJCV**), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
-**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (SCIS), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
+**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (**SCIS**), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
 * Comprehensive Benchmark Datasets for Amharic Scene Text Detection and Recognition.  
-Wondimu Dikubab, **Dingkang Liang**, Minghui Liao, Xiang Bai. Science China Information Science (SCIS), 2022. [[PDF](https://arxiv.org/abs/2203.12165)] [[Project](https://dk-liang.github.io/HUST-ASTD/)]
+Wondimu Dikubab, **Dingkang Liang**, Minghui Liao, Xiang Bai. Science China Information Science (**SCIS**), 2022. [[PDF](https://arxiv.org/abs/2203.12165)] [[Project](https://dk-liang.github.io/HUST-ASTD/)]
 * Cell Localization and Counting Using Direction Field Map.   
-Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
+Yajie Chen, **Dingkang Liang**, Xiang Bai, Yongchao Xu, Xin Yang. IEEE Journal of Biomedical and Health Informatics (**IEEE JBHI**), 2021. [[paper](https://ieeexplore.ieee.org/abstract/document/9516881)]
 * Dilated-Scale-Aware Attention ConvNet For Multi-Class Object Counting.  
-Wei Xu, **Dingkang Liang**, Yixiao Zheng, Zhanyu Ma. IEEE Signal Processing  Letters (IEEE SPL), 2021. [[paper](https://arxiv.org/abs/2012.08149)] [[code](https://github.com/PRIS-CV/DSACA.git)]
+Wei Xu, **Dingkang Liang**, Yixiao Zheng, Zhanyu Ma. IEEE Signal Processing  Letters (**IEEE SPL**), 2021. [[paper](https://arxiv.org/abs/2012.08149)] [[code](https://github.com/PRIS-CV/DSACA.git)]
 
 Competitions
 ======
