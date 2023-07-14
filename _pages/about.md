@@ -60,7 +60,7 @@ DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zh
 
 ## Conference
 * A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection.  
-Dingyuan Zhang\*, **Dingkang Liang\***, Zhikang Zou\*, Jingyu Li, Xiaoqing Ye, Zhe Liu, Xiang Bai.  IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023.  
+Dingyuan Zhang\*, **Dingkang Liang\***, Zhikang Zou\*, Jingyu Li, Xiaoqing Ye, Zhe Liu, Xiao Tan, Xiang Bai.  IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023.  
 * CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.  
 **Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023. [[pdf](https://arxiv.org/abs/2304.04231)] [[code](https://github.com/dk-liang/CrowdCLIP)]
 * SOOD: Towards Semi-Supervised Oriented Object Detection.  
