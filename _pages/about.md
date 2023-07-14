@@ -36,6 +36,7 @@ IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIS
 
 News
 ======
+07 / 2023:  One paper accepted by **ICCV 2023**  
 04 / 2023:  One paper accepted by **ICDAR 2023**   
 04 / 2023:  Invited as a **reviewer of NeurIPS 2023**   
 03 / 2023：Two papers accepted by **CVPR 2023**  
@@ -58,6 +59,8 @@ Publications
 DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zhe Liu, Xiang Bai. [[pdf](https://arxiv.org/abs/2306.02245)] [[code](https://github.com/DYZhang09/SAM3D)]
 
 ## Conference
+* A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection.  
+Dingyuan Zhang\*, **Dingkang Liang\***, Zhikang Zou\*, Jingyu Li, Xiaoqing Ye, Zhe Liu, Xiang Bai.  IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023.  
 * CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.  
 **Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023. [[pdf](https://arxiv.org/abs/2304.04231)] [[code](https://github.com/dk-liang/CrowdCLIP)]
 * SOOD: Towards Semi-Supervised Oriented Object Detection.  
