@@ -36,6 +36,8 @@ IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIS
 
 News
 ======
+08 / 2023:  One paper accepted by **IEEE RAL**  
+08 / 2023:  One paper accepted by **PRCV 2023**   
 07 / 2023:  One paper accepted by **ICCV 2023**  
 04 / 2023:  One paper accepted by **ICDAR 2023**   
 04 / 2023:  Invited as a **reviewer of NeurIPS 2023**   
