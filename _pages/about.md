@@ -28,14 +28,16 @@ EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022
 EEE/CVF International Conference on Computer Vision (ICCV): 2021, 2023.  
 European Conference on Computer Vision (ECCV): 2022.  
 Conference on Neural Information Processing Systems (NeurIPS): 2023  
+International Conference on Learning Representations (ICLR): 2024  
 ACM Multimedia (MM): 2022  
 International Conference on 3D Vision (3DV): 2022  
 
 ## Journal reviewer
-IEEE TPAMI, IEEE TIP, IEEE TCSVT, SCIS  
+IEEE TPAMI, IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS  
 
 News
 ======
+09 / 2023:  Invited as a **reviewer of ICLR 2024**   
 08 / 2023:  One paper accepted by **IEEE RAL**  
 08 / 2023:  One paper accepted by **PRCV 2023**   
 07 / 2023:  One paper accepted by **ICCV 2023**  
