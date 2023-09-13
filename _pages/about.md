@@ -37,13 +37,13 @@ IEEE TPAMI, IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS
 
 News
 ======
-09 / 2023:  Invited as a **reviewer of ICLR 2024**   
+
+09 / 2023:  One paper accepted by **IEEE TII**    
 08 / 2023:  One paper accepted by **IEEE RAL**  
 08 / 2023:  One paper accepted by **PRCV 2023**   
 07 / 2023:  One paper accepted by **ICCV 2023**  
 04 / 2023:  One paper accepted by **ICDAR 2023**   
-04 / 2023:  Invited as a **reviewer of NeurIPS 2023**   
-03 / 2023：Two papers accepted by **CVPR 2023**  
+03 / 2023：**Two** papers accepted by **CVPR 2023**  
 02 / 2023:  One paper accepted by **ICASSP 2023**   
 01 / 2023:  One paper accepted by **ICRA 2023**   
 09 / 2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
