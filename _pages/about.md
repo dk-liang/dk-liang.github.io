@@ -33,11 +33,11 @@ ACM Multimedia (MM): 2022
 International Conference on 3D Vision (3DV): 2022  
 
 ## Journal reviewer
-IEEE TPAMI, IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS  
+IEEE TPAMI, IJCV,IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS  
 
 News
 ======
-
+09 / 2023:  My TransCrowd was selected as a **Highly Cited Paper**   
 09 / 2023:  One paper accepted by **IEEE TII**    
 08 / 2023:  One paper accepted by **IEEE RAL**  
 08 / 2023:  One paper accepted by **PRCV 2023**   
@@ -47,7 +47,6 @@ News
 02 / 2023:  One paper accepted by **ICASSP 2023**   
 01 / 2023:  One paper accepted by **ICRA 2023**   
 09 / 2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
-08 / 2022:   Invited as a **reviewer of IEEE TPAMI**  
 08 / 2022:   One paper accepted by **IEEE TMM**   
 06 / 2022:   Two papers accepted by **ECCV 2022**  
 03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
