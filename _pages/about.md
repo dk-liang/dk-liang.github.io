@@ -37,7 +37,7 @@ IEEE TPAMI, IJCV,IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS
 
 News
 ======
-09 / 2023:  My TransCrowd was selected as a **Highly Cited Paper**   
+09 / 2023:  TransCrowd was selected as a **ESI Highly Cited Paper**   
 09 / 2023:  One paper accepted by **IEEE TII**    
 08 / 2023:  One paper accepted by **IEEE RAL**  
 08 / 2023:  One paper accepted by **PRCV 2023**   
@@ -85,7 +85,7 @@ Bohan Li\*, Ye Yuan\*, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, We
 * AutoScale: Learning to Scale for Crowd Counting.   
 Chenfeng Xu\*, **Dingkang Liang\***, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Massayoshi Tomizuka. International Journal of Computer Vision (**IJCV**), 2022. [[PDF](https://arxiv.org/abs/1912.09632)] [[code](https://github.com/dk-liang/AutoScale)].
 * TransCrowd: Weakly-Supervised Crowd Counting with Transformer.  
-**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (**SCIS**), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)].  
+**Dingkang Liang**, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai. Science China Information Science (**SCIS**), 2022.  [[PDF](https://arxiv.org/abs/2104.09116)] [[code](https://github.com/dk-liang/TransCrowd)] (**ESI Highly Cited Paper**).  
 * Comprehensive Benchmark Datasets for Amharic Scene Text Detection and Recognition.  
 Wondimu Dikubab, **Dingkang Liang**, Minghui Liao, Xiang Bai. Science China Information Science (**SCIS**), 2022. [[PDF](https://arxiv.org/abs/2203.12165)] [[Project](https://dk-liang.github.io/HUST-ASTD/)]
 * Cell Localization and Counting Using Direction Field Map.   
