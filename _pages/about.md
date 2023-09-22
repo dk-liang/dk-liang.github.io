@@ -38,7 +38,7 @@ IEEE TPAMI, IJCV,IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS
 News
 ======
 09 / 2023:  One paper is accepted by **NeurIPS 2023**   
-09 / 2023:  TransCrowd is selected as a **ESI Highly Cited Paper**   
+09 / 2023:  TransCrowd is selected as an **ESI Highly Cited Paper**   
 09 / 2023:  One paper is accepted by **IEEE TII**    
 08 / 2023:  One paper is accepted by **IEEE RAL**  
 08 / 2023:  One paper is accepted by **PRCV 2023**   
