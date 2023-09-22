@@ -37,21 +37,22 @@ IEEE TPAMI, IJCV,IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS
 
 News
 ======
-09 / 2023:  TransCrowd was selected as a **ESI Highly Cited Paper**   
-09 / 2023:  One paper accepted by **IEEE TII**    
-08 / 2023:  One paper accepted by **IEEE RAL**  
-08 / 2023:  One paper accepted by **PRCV 2023**   
-07 / 2023:  One paper accepted by **ICCV 2023**  
-04 / 2023:  One paper accepted by **ICDAR 2023**   
-03 / 2023：**Two** papers accepted by **CVPR 2023**  
-02 / 2023:  One paper accepted by **ICASSP 2023**   
-01 / 2023:  One paper accepted by **ICRA 2023**   
+09 / 2023:  One paper is accepted by **NeurIPS 2023**   
+09 / 2023:  TransCrowd is selected as a **ESI Highly Cited Paper**   
+09 / 2023:  One paper is accepted by **IEEE TII**    
+08 / 2023:  One paper is accepted by **IEEE RAL**  
+08 / 2023:  One paper is accepted by **PRCV 2023**   
+07 / 2023:  One paper is accepted by **ICCV 2023**  
+04 / 2023:  One paper is accepted by **ICDAR 2023**   
+03 / 2023：**Two** papers are accepted by **CVPR 2023**  
+02 / 2023:  One paper is accepted by **ICASSP 2023**   
+01 / 2023:  One paper is accepted by **ICRA 2023**   
 09 / 2022:  Guided graduate students win **1st** place in the VisDrone2022 (PRCV) challenge on the crowd counting track.  
-08 / 2022:   One paper accepted by **IEEE TMM**   
-06 / 2022:   Two papers accepted by **ECCV 2022**  
+08 / 2022:   One paper is accepted by **IEEE TMM**   
+06 / 2022:   Two papers are accepted by **ECCV 2022**  
 03 / 2022:   We released the first comprehensive public African text dataset [[project](https://dk-liang.github.io/HUST-ASTD/)]   
 10 / 2021:   I'm awarded **National Scholarship**  
-10 / 2021:   One paper accepted by **IJCV**  
+10 / 2021:   One paper is accepted by **IJCV**  
 09 / 2021:   We win **1st** place in the VisDrone2021 (ICCV) challenge on the crowd counting track.  
 
 Publications
