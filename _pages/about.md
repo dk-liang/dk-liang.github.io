@@ -33,10 +33,11 @@ ACM Multimedia (MM): 2022
 International Conference on 3D Vision (3DV): 2022  
 
 ## Journal reviewer
-IEEE TPAMI, IJCV,IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS  
+IEEE TPAMI, IJCV, IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS  
 
 News
 ======
+09 / 2023: **Outstanding reviewer at ICCV 2023**; Thank you ACs/PCs for the nomination!   
 09 / 2023:  One paper is accepted by **NeurIPS 2023**   
 09 / 2023:  TransCrowd is selected as an **ESI Highly Cited Paper**   
 09 / 2023:  One paper is accepted by **IEEE TII**    
