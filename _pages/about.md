@@ -31,6 +31,7 @@ Conference on Neural Information Processing Systems (NeurIPS): 2023
 International Conference on Learning Representations (ICLR): 2024  
 ACM Multimedia (MM): 2022  
 International Conference on 3D Vision (3DV): 2022  
+IEEE International Conference on Robotics and Automation (ICRA): 2024  
 
 ## Journal reviewer
 IEEE TPAMI, IJCV, IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS  
