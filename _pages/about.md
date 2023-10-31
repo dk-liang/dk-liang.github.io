@@ -24,14 +24,15 @@ Experience
 Academic Services
 ======
 ## Conference reviewer
-EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021, 2022, 2023.  
-EEE/CVF International Conference on Computer Vision (ICCV): 2021, 2023.  
-European Conference on Computer Vision (ECCV): 2022.  
-Conference on Neural Information Processing Systems (NeurIPS): 2023  
-International Conference on Learning Representations (ICLR): 2024  
-ACM Multimedia (MM): 2022  
-International Conference on 3D Vision (3DV): 2022  
-IEEE International Conference on Robotics and Automation (ICRA): 2024  
+CVPR: 2021-2024
+ICCV: 2021-2023
+ECCV: 2022
+NeurIPS: 2023
+ICLR: 2024
+AAAI: 2024
+ICRA: 2024
+ACM MM: 2022
+3DV: 2022
 
 ## Journal reviewer
 IEEE TPAMI, IJCV, IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS  
