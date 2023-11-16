@@ -41,7 +41,7 @@ News
 ======
 09 / 2023: **Outstanding reviewer at ICCV 2023**; Thank you ACs/PCs for the nomination!   
 09 / 2023:  One paper is accepted by **NeurIPS 2023**   
-09 / 2023:  TransCrowd is selected as an **ESI Highly Cited Paper**  (Top 1% of papers in the academic field) 
+09 / 2023:  TransCrowd is selected as an **ESI Highly Cited Paper**  (Top 1% of papers in the academic field)   
 09 / 2023:  One paper is accepted by **IEEE TII**    
 08 / 2023:  One paper is accepted by **IEEE RAL**  
 08 / 2023:  One paper is accepted by **PRCV 2023**   
