@@ -129,6 +129,7 @@ China Patent
 * 应用于数字识别的忆阻器读写电路, CN109509498B  
 * 基于忆阻器矩阵的权值运算模块, CN109325588B  
 * 一种基于距离变换标签的密集群体计数及定位方法, CN111062280B  
+
 Others
 ======
 * Excellent volunteer teacher, Hainan, 2016. 
