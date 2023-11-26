@@ -124,16 +124,12 @@ Competitions
 
 China Patent
 ======
-## Authorized
+## 授权发明专利
+* 一种基于忆阻器的神经网络单元电路, CN110059816B  
 * 应用于数字识别的忆阻器读写电路, CN109509498B  
-* 一种基于忆阻器的神经网络单元电路, CN201910280013.1  
-* 一种基于距离变换标签的密集群体计数及定位方法, CN111062280A  
-* 一种基于无人机的自主式巡检违章罚停系统, CN207650996U  
-* 基于忆阻器矩阵的权值运算模块, CN209570966U  
-* 一种指纹识别智能锁, CN209874701U  
-* 一种测温枪搭载装置, CN209416505U  
-
-Volunteer and Leadership Activities
+* 基于忆阻器矩阵的权值运算模块, CN109325588B  
+* 一种基于距离变换标签的密集群体计数及定位方法, CN111062280B  
+Others
 ======
 * Excellent volunteer teacher, Hainan, 2016. 
 * Former CEO & Co-Founder, [Wefly](https://www.tianyancha.com/company/3176757052), Inc. (The status of Wefly is cancellation.)
