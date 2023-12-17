@@ -21,22 +21,6 @@ Experience
 ======
 08 / 2022 - current: Research Intern at Baidu (Mentors are [Zhikang Zou](https://bigteacher-777.github.io/) and [Xiaoqing Ye](https://shuluoshu.github.io/))
 
-Academic Services
-======
-## Conference reviewer
-CVPR: 2021-2024  
-ICCV: 2021-2023  
-ECCV: 2022  
-NeurIPS: 2023  
-ICLR: 2024  
-AAAI: 2024  
-ICRA: 2024  
-ACM MM: 2022  
-3DV: 2022  
-
-## Journal reviewer
-IEEE TPAMI, IJCV, IEEE TIP, IEEE TITS, IEEE TCSVT, SCIS  
-
 News
 ======
 09 / 2023: **Outstanding reviewer at ICCV 2023**; Thank you ACs/PCs for the nomination!   
@@ -58,12 +42,14 @@ News
 10 / 2021:   One paper is accepted by **IJCV**  
 09 / 2021:   We win **1st** place in the VisDrone2021 (ICCV) challenge on the crowd counting track.  
 
-Publications
+Publications [Full List](https://scholar.google.com/citations?user=Tre69v0AAAAJ&hl=en)
 ======
 (* Equal contribution, † Corresponding author)  
 ## Preprint
 * SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model.  
-DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zhe Liu, Xiang Bai. [[pdf](https://arxiv.org/abs/2306.02245)] [[code](https://github.com/DYZhang09/SAM3D)]
+DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zhe Liu, Xiang Bai. [[pdf](https://arxiv.org/abs/2306.02245)] [[code](https://github.com/DYZhang09/SAM3D)]  
+* LATFormer: Locality-Aware Point-View Fusion Transformer for 3D Shape Recognition.  
+Xinwei He\*, Silin Cheng\*, **Dingkang Liang\***, Song Bai, Xi Wang, Yingying Zhu. [[pdf](https://arxiv.org/abs/2109.01291)]
 
 ## Conference
 * A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection.  
@@ -129,6 +115,27 @@ China Patent
 * 应用于数字识别的忆阻器读写电路, CN109509498B  
 * 基于忆阻器矩阵的权值运算模块, CN109325588B  
 * 一种基于距离变换标签的密集群体计数及定位方法, CN111062280B  
+
+Academic Services
+======
+## Conference reviewer
+• IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021-2024  
+• IEEE/CVF International Conference on Computer Vision (ICCV), 2021-2023  
+• European Conference on Computer Vision (ECCV), 2022  
+• Neural Information Processing Systems (NeurIPS), 2023  
+• International Conference on Learning Representations (ICLR), 2024  
+• AAAI Conference on Artificial Intelligence (AAAI), 2024  
+• ACM International Conference on Multimedia (ACM MM), 2023  
+• IEEE International Conference on Robotics and Automation (ICRA), 2024  
+• International Conference on 3D Vision (3DV), 2022   
+
+## Journal reviewer
+• IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)  
+• International Journal of Computer Vision (IJCV)  
+• IEEE Transactions on Image Processing (TIP)  
+• IEEE Transactions on Intelligent Transportation Systems (TITS)  
+• IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)  
+• Science China-Information Science (SCIS) 
 
 Others
 ======
