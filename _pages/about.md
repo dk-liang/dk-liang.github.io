@@ -123,7 +123,8 @@ Academic Services
 • IEEE/CVF International Conference on Computer Vision (ICCV), 2021-2023  
 • European Conference on Computer Vision (ECCV), 2022  
 • Neural Information Processing Systems (NeurIPS), 2023  
-• International Conference on Learning Representations (ICLR), 2024  
+• International Conference on Learning Representations (ICLR), 2024    
+• International Conference on Machine Learning (ICML), 2024   
 • AAAI Conference on Artificial Intelligence (AAAI), 2024  
 • ACM International Conference on Multimedia (ACM MM), 2023  
 • IEEE International Conference on Robotics and Automation (ICRA), 2024  
