@@ -46,8 +46,7 @@ Publications [Full List](https://scholar.google.com/citations?user=Tre69v0AAAAJ&
 ======
 (* Equal contribution, † Corresponding author)  
 ## Preprint
-* SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model.  
-DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zhe Liu, Xiang Bai. [[pdf](https://arxiv.org/abs/2306.02245)] [[code](https://github.com/DYZhang09/SAM3D)]  
+* PointMamba: A Simple State Space Model for Point Cloud Analysis. **Dingkang Liang\***, Xin Zhou\*, Xinyu Wang\*, Xingkui Zhu, Wei Xu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. [[pdf](https://arxiv.org/abs/2402.10739)] [[code](https://github.com/LMD0311/PointMamba)]  
 * LATFormer: Locality-Aware Point-View Fusion Transformer for 3D Shape Recognition.  
 Xinwei He\*, Silin Cheng\*, **Dingkang Liang\***, Song Bai, Xi Wang, Yingying Zhu. [[pdf](https://arxiv.org/abs/2109.01291)]
 
@@ -72,6 +71,8 @@ Jianfeng Kuang, Wei Hua, **Dingkang Liang**, Mingkun Yang, Deqiang Jiang, Bo Ren
 Bohan Li\*, Ye Yuan\*, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. European Conference on Computer Vision (**ECCV**), 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
 
 ## Journal 
+* SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model.  
+DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zhe Liu, Xiang Bai. Science China Information Science (**SCIS**), 2024. [[pdf](https://arxiv.org/abs/2306.02245)] [[code](https://github.com/DYZhang09/SAM3D)]  
 * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
  **Dingkang Liang**, Wei Xu, Yingying Zhu, Yu Zhou. IEEE Transactions on Multimedia (**IEEE TMM**), 2022. [[pdf](https://ieeexplore.ieee.org/document/9875106)] [[code](https://github.com/dk-liang/FIDTM)].
 * AutoScale: Learning to Scale for Crowd Counting.   
