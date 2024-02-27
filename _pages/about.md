@@ -23,6 +23,7 @@ Experience
 
 News
 ======
+02 / 2024: One paper is accepted by **CVPR 2024**  
 09 / 2023: **Outstanding reviewer at ICCV 2023**; Thank you ACs/PCs for the nomination!   
 09 / 2023:  One paper is accepted by **NeurIPS 2023**   
 09 / 2023:  TransCrowd is selected as an **ESI Highly Cited Paper**  (Top 1% of papers in the academic field)   
@@ -46,7 +47,8 @@ Publications [Full List](https://scholar.google.com/citations?user=Tre69v0AAAAJ&
 ======
 (* Equal contribution, † Corresponding author)  
 ## Preprint
-* PointMamba: A Simple State Space Model for Point Cloud Analysis. **Dingkang Liang\***, Xin Zhou\*, Xinyu Wang\*, Xingkui Zhu, Wei Xu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. [[pdf](https://arxiv.org/abs/2402.10739)] [[code](https://github.com/LMD0311/PointMamba)]  
+* PointMamba: A Simple State Space Model for Point Cloud Analysis.    
+**Dingkang Liang\***, Xin Zhou\*, Xinyu Wang\*, Xingkui Zhu, Wei Xu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. [[pdf](https://arxiv.org/abs/2402.10739)] [[code](https://github.com/LMD0311/PointMamba)]  
 * LATFormer: Locality-Aware Point-View Fusion Transformer for 3D Shape Recognition.  
 Xinwei He\*, Silin Cheng\*, **Dingkang Liang\***, Song Bai, Xi Wang, Yingying Zhu. [[pdf](https://arxiv.org/abs/2109.01291)]
 
