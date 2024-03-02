@@ -53,7 +53,9 @@ Publications [Full List](https://scholar.google.com/citations?user=Tre69v0AAAAJ&
 Xinwei He\*, Silin Cheng\*, **Dingkang Liang\***, Song Bai, Xi Wang, Yingying Zhu. [[pdf](https://arxiv.org/abs/2109.01291)]
 
 ## Conference
-* A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection.  
+* Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis. 
+Xin Zhou\*, **Dingkang Liang\***, Wei Xu, Xingkui Zhu, Yihan Xu, Zhikang Zou, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024. [[pdf]()] [[code](https://github.com/LMD0311/DAPT)]   
+* A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection.
 Dingyuan Zhang\*, **Dingkang Liang\***, Zhikang Zou\*, Jingyu Li, Xiaoqing Ye, Zhe Liu, Xiao Tan, Xiang Bai.  IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023.  
 * CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.  
 **Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023. [[pdf](https://arxiv.org/abs/2304.04231)] [[code](https://github.com/dk-liang/CrowdCLIP)]
