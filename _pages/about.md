@@ -54,9 +54,9 @@ Xinwei He\*, Silin Cheng\*, **Dingkang Liang\***, Song Bai, Xi Wang, Yingying Zh
 
 ## Conference
 * Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis.   
-Xin Zhou\*, **Dingkang Liang\***, Wei Xu, Xingkui Zhu, Yihan Xu, Zhikang Zou, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024. [[pdf]()] [[code](https://github.com/LMD0311/DAPT)]   
+Xin Zhou\*, **Dingkang Liang\***, Wei Xu, Xingkui Zhu, Yihan Xu, Zhikang Zou, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024. [[pdf](https://arxiv.org/abs/2403.01439)] [[code](https://github.com/LMD0311/DAPT)]   
 * A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection.
-Dingyuan Zhang\*, **Dingkang Liang\***, Zhikang Zou\*, Jingyu Li, Xiaoqing Ye, Zhe Liu, Xiao Tan, Xiang Bai.  IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023.  
+Dingyuan Zhang\*, **Dingkang Liang\***, Zhikang Zou\*, Jingyu Li, Xiaoqing Ye, Zhe Liu, Xiao Tan, Xiang Bai.  IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023. [[pdf](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_A_Simple_Vision_Transformer_for_Weakly_Semi-supervised_3D_Object_Detection_ICCV_2023_paper.html)] 
 * CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.  
 **Dingkang Liang\***, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.  IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023. [[pdf](https://arxiv.org/abs/2304.04231)] [[code](https://github.com/dk-liang/CrowdCLIP)]
 * SOOD: Towards Semi-Supervised Oriented Object Detection.  
@@ -124,14 +124,14 @@ China Patent
 Academic Services
 ======
 ## Conference reviewer
-• IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021-2024  
-• IEEE/CVF International Conference on Computer Vision (ICCV), 2021-2023  
+• IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021 - 2024  
+• IEEE/CVF International Conference on Computer Vision (ICCV), 2021 - 2023  
 • European Conference on Computer Vision (ECCV), 2022  
 • Neural Information Processing Systems (NeurIPS), 2023  
 • International Conference on Learning Representations (ICLR), 2024    
 • International Conference on Machine Learning (ICML), 2024   
 • AAAI Conference on Artificial Intelligence (AAAI), 2024  
-• ACM International Conference on Multimedia (ACM MM), 2023  
+• ACM International Conference on Multimedia (ACM MM), 2023 - 2024  
 • IEEE International Conference on Robotics and Automation (ICRA), 2024  
 • International Conference on 3D Vision (3DV), 2022   
 
