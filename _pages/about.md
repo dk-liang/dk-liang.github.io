@@ -23,6 +23,7 @@ Experience
 
 News
 ======
+03 / 2024: One paper is accepted by **PR**  
 02 / 2024: One paper is accepted by **CVPR 2024**  
 09 / 2023: **Outstanding reviewer at ICCV 2023**; Thank you ACs/PCs for the nomination!   
 09 / 2023:  One paper is accepted by **NeurIPS 2023**   
@@ -49,8 +50,6 @@ Publications [Full List](https://scholar.google.com/citations?user=Tre69v0AAAAJ&
 ## Preprint
 * PointMamba: A Simple State Space Model for Point Cloud Analysis.    
 **Dingkang Liang\***, Xin Zhou\*, Xinyu Wang\*, Xingkui Zhu, Wei Xu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. [[pdf](https://arxiv.org/abs/2402.10739)] [[code](https://github.com/LMD0311/PointMamba)]  
-* LATFormer: Locality-Aware Point-View Fusion Transformer for 3D Shape Recognition.  
-Xinwei He\*, Silin Cheng\*, **Dingkang Liang\***, Song Bai, Xi Wang, Yingying Zhu. [[pdf](https://arxiv.org/abs/2109.01291)]
 
 ## Conference
 * Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis.   
@@ -75,6 +74,8 @@ Jianfeng Kuang, Wei Hua, **Dingkang Liang**, Mingkun Yang, Deqiang Jiang, Bo Ren
 Bohan Li\*, Ye Yuan\*, **Dingkang Liang**, Xiao Liu, Zhilong Ji, Jinfeng Bai, Wenyu Liu, Xiang Bai. European Conference on Computer Vision (**ECCV**), 2022. [[pdf](https://arxiv.org/abs/2207.11463)] [[code](https://github.com/LBH1024/CAN)].  
 
 ## Journal 
+* LATFormer: Locality-Aware Point-View Fusion Transformer for 3D Shape Recognition.  
+Xinwei He\*, Silin Cheng\*, **Dingkang Liang\***, Song Bai, Xi Wang, Yingying Zhu. Pattern Recognition (**PR**). [[pdf](https://arxiv.org/abs/2109.01291)]
 * SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model.  
 DIngyuan Zhang, **Dingkang Liang**, Hongcheng Yang, Zhikang Zou, Xiaoqing Ye, Zhe Liu, Xiang Bai. Science China Information Science (**SCIS**), 2024. [[pdf](https://arxiv.org/abs/2306.02245)] [[code](https://github.com/DYZhang09/SAM3D)]  
 * Focal Inverse Distance Transform Maps for Crowd Localization in Dense Crowd.  
