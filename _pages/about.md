@@ -23,6 +23,7 @@ Experience
 
 News
 ======
+03 / 2024: FIDTM is selected as an **ESI Highly Cited Paper**  (Top 1% of papers in the academic field)  
 03 / 2024: One paper is accepted by **PR**  
 02 / 2024: One paper is accepted by **CVPR 2024**  
 09 / 2023: **Outstanding reviewer at ICCV 2023**; Thank you ACs/PCs for the nomination!   
