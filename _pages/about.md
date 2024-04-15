@@ -23,6 +23,7 @@ Experience
 
 News
 ======
+04 / 2024: I obtain the Youth Student Fundamental Research Project from the National Natural Science Foundation of China (NSFC), which is a grant of **300,000 RMB**!  
 03 / 2024: FIDTM is selected as an **ESI Highly Cited Paper**  (Top 1% of papers in the academic field)  
 03 / 2024: One paper is accepted by **PR**  
 02 / 2024: One paper is accepted by **CVPR 2024**  
