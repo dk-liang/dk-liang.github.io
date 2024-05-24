@@ -11,6 +11,7 @@ redirect_from:
 I am currently a PHD student at Huazhong University of Science and Technology, under the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/).
 My research interests mainly lie in 3D object detection, crowd analysis.
 
+
 Education
 ======
 * **PHD**: Huazhong University of Science and Technology (2022–2026), unde the supervision of Prof. [Xiang Bai](http://122.205.5.5:8071/~xbai/).  
@@ -20,6 +21,10 @@ Education
 Experience 
 ======
 08 / 2022 - current: Research Intern at Baidu (Mentors are [Zhikang Zou](https://bigteacher-777.github.io/) and [Xiaoqing Ye](https://shuluoshu.github.io/))
+
+WeChat (used for academic discussion)
+======
+<img src="wechat.jpg" alt="image-20240524151809703" style="zoom:25%;" />
 
 News
 ======
@@ -51,7 +56,7 @@ Publications [Full List](https://scholar.google.com/citations?user=Tre69v0AAAAJ&
 (* Equal contribution, † Corresponding author)  
 ## Preprint
 * PointMamba: A Simple State Space Model for Point Cloud Analysis.    
-**Dingkang Liang\***, Xin Zhou\*, Xinyu Wang\*, Xingkui Zhu, Wei Xu, Zhikang Zou, Xiaoqing Ye, Xiang Bai. [[pdf](https://arxiv.org/abs/2402.10739)] [[code](https://github.com/LMD0311/PointMamba)]  
+**Dingkang Liang\***, Xin Zhou\*, Wei Xu, Xingkui Zhu, Zhikang Zou, Xiaoqing Ye, Xiao Tan, Xiang Bai. [[pdf](https://arxiv.org/abs/2402.10739)] [[code](https://github.com/LMD0311/PointMamba)]  
 
 ## Conference
 * Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis.   
