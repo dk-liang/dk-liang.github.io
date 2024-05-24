@@ -22,9 +22,10 @@ Experience
 ======
 08 / 2022 - current: Research Intern at Baidu (Mentors are [Zhikang Zou](https://bigteacher-777.github.io/) and [Xiaoqing Ye](https://shuluoshu.github.io/))
 
-WeChat (used for academic discussion)
+WeChat (used for academic)
 ======
-<img src="wechat.jpg" alt="image-20240524151809703" style="zoom:25%;" />
+
+<img src="./wechat.jpg" alt="avatar" style="zoom:25%;" />
 
 News
 ======
