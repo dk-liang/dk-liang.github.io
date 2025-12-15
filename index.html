@@ -6,8 +6,9 @@
 			color: #333;
 		}
 		#container{
-			min-width: 1000px;
-			width: 1000px;
+			width: 1400px;
+			max-width: 95vw;
+			min-width: 0;
 /*			overflow: auto;
 */			margin: 50px auto;padding: 30px;
 			/*zoom: 1;*/
@@ -61,7 +62,7 @@
 			    mso-bidi-font-family: Lato-Regular;
 			    font: bold;
 			    margin-top: 10px;
-			    width: 1000px;
+			    width: 100%;
 		}
 		div.section{
 			padding-top: 30px;
@@ -128,6 +129,39 @@
 		    mso-bidi-font-family: Times;
 		    line-height:170%;
 		}
+		/* Selected publications: unify layout and avoid per-item scrollbars */
+		#publications .paper{
+			overflow: visible;
+			display: flex;
+			align-items: flex-start;
+			padding-bottom: 10px;
+		}
+		#publications .sub-left,
+		#publications .sub-right{
+			float: none;
+			height: auto;
+		}
+		#publications .sub-left{
+			width: 220px;
+			margin-right: 20px;
+			flex: 0 0 220px;
+		}
+		#publications .sub-right{
+			width: auto;
+			flex: 1 1 auto;
+		}
+		#publications .paperTitle,
+		#publications .paperName,
+		#publications .paperPub,
+		#publications .paperLink{
+			display: block;
+			white-space: normal;
+			overflow: visible;
+			text-overflow: clip;
+		}
+		#publications .paperPub{
+			display: block;
+		}
 		.special{
 		    margin-top: 0in;
 		    margin-bottom: 0in;
@@ -152,12 +186,23 @@
 			height:200px;
 
 		}
+		.gh-star-badge{
+			vertical-align: middle;
+			height: 18px;
+			margin-left: 6px;
+		}
+		.bio-wechat{
+			float: right;
+			width: 170px;
+			height: auto;
+			margin: 6px 0 10px 18px;
+		}
 	</style>
 </head>
 <body>
 	<div id="container">
 		<div id="left">			
-			<img width="230" height="230" src="personal_imgs/Sanya.jpg">
+			<img width="230" height="230" src="imgs/dkliang.jpg">
 		</div>
 		<div id="right">
 			<div id="name"><span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang</b></span> (梁定康) </div>
@@ -177,6 +222,7 @@
 		<div class="section">
 			<span class="Title"><b>Brief Bio</b></span><p>			
 				<div class="Bio">
+					<img class="bio-wechat" src="imgs/wechat.jpg" alt="WeChat QR">
 
 					I received my Ph.D. degree from Huazhong University of Science and Technology in 2025, supervised by Prof. <a href="https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=zh-CN" target="_blank" rel="nofollow">Xiang Bai</a>.
 					My research interests mainly lie in Embodied AI, 3D Vision, World Model and Dense Object Analysis. 
@@ -252,21 +298,10 @@
 
 	<div class="clear"></div>
 	<div class="section">
-	<span class="Title"><b>Wechat (welcome any discussion)</span><p><p>
-	<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
-	<div class="sub-left">
-		<span></span>
-		<img border="0" width="180" height="200" src="imgs/wechat.jpg">
-	</div>
-
-
-
-	
-	<div class="clear"></div>
-	<div class="section">
 	<span class="Title"><b>Selected publications (<a href="https://scholar.google.com/citations?user=Tre69v0AAAAJ&hl=zh-CN" target="_blank" rel="nofollow">ALL </a>)</b></span><p><p>
 	<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
 	(* Co-first author, # Corresponding author, + Project leader) <br> <br>
+	<div id="publications">
 
 		<!-- Video4Edit -->
 		<div class="paper short" style="display: flex; align-items: center;">
@@ -348,7 +383,11 @@
 					<span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang</b></span>, Dingyuan Zhang, Xin Zhou, Sifan Tu, Tianrui Feng, Xiaofan Li, Yumeng Zhang, Mingyang Du, Xiao Tan, Xiang Bai
 				</div>
 				<div class="paperPub">
-					<span style="color:red"> <b>Arxiv</b></span>, 2025. <a href="https://arxiv.org/abs/2503.13587" target="_blank" rel="nofollow">Paper</a>. <a href="https://github.com/dk-liang/UniFuture" target="_blank" rel="nofollow">Code</a>. <br> 
+					<span style="color:red"> <b>Arxiv</b></span>, 2025.<br> 
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2503.13587" target="_blank" rel="nofollow">Paper</a>	
+					| <a href="https://github.com/dk-liang/UniFuture" target="_blank" rel="nofollow">Code</a>	
 				</div>
 			</div>
 		</div>
@@ -416,8 +455,8 @@
 					<span style="color:red"> <b>IEEE TPAMI</b></span>, 2025. <br> 
 								</div>
 				<div class="paperLink">
-					｜<a href="https://arxiv.org/abs/2410.08114" target="_blank" rel="nofollow">Paper</a>
-					｜<a href="https://github.com/jerryfeng2003/PointGST" target="_blank" rel="nofollow">Code</a>	
+					| <a href="https://arxiv.org/abs/2410.08114" target="_blank" rel="nofollow">Paper</a>
+					| <a href="https://github.com/jerryfeng2003/PointGST" target="_blank" rel="nofollow">Code</a>	
 				</div>
 			</div>
 		</div>
@@ -436,7 +475,11 @@
 					Xin Zhou*, <span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang*</b></span>, Sifan Tu, Xiwu Chen, Yikang Ding, Dingyuan Zhang, Feiyang Tan, Hengshuang Zhao, Xiang Bai
 				</div>
 				<div class="paperPub">
-					<span style="color:red"> <b>ICCV</b></span>, 2025. <a href="https://arxiv.org/abs/2501.14729" target="_blank" rel="nofollow">Paper</a>. <a href="https://github.com/LMD0311/HERMES" target="_blank" rel="nofollow">Code</a>. <br> 
+					<span style="color:red"> <b>ICCV</b></span>, 2025.<br>
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2501.14729" target="_blank" rel="nofollow">Paper</a>	
+					| <a href="https://github.com/LMD0311/HERMES" target="_blank" rel="nofollow">Code</a>	
 				</div>
 			</div>
 		</div>
@@ -692,7 +735,11 @@
 					Haoyu Fu, Diankun Zhang, Zongchuang Zhao, Jianfeng Cui, <span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang+</b></span>, Chong Zhang, Dingyuan Zhang, Hongwei Xie+, Bing Wang, Xiang Bai
 				</div>
 				<div class="paperPub">
-					<span style="color:red"> <b>ICCV</b></span>, 2025. <a href="https://arxiv.org/abs/2503.19755" target="_blank" rel="nofollow">Paper</a>. <a href="https://github.com/xiaomi-mlab/Orion" target="_blank" rel="nofollow">Code</a>. <br> 
+					<span style="color:red"> <b>ICCV</b></span>, 2025.<br>
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2503.19755" target="_blank" rel="nofollow">Paper</a>	
+					| <a href="https://github.com/xiaomi-mlab/Orion" target="_blank" rel="nofollow">Code</a>	
 				</div>
 			</div>
 		</div>
@@ -710,7 +757,11 @@
 				Xiaofan Li, Chenming Wu, Zhao Yang, Zhihao Xu, <span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang</b></span>, Yumeng Zhang, Ji Wan, Jun Wang
 				</div>
 				<div class="paperPub">
-					<span style="color:red"> <b>ACM MM</b></span>, 2025. <a href="https://arxiv.org/abs/2504.18576" target="_blank" rel="nofollow">Paper</a>. <a href="https://github.com/shalfun/DriVerse" target="_blank" rel="nofollow">Code</a>. <br> 
+					<span style="color:red"> <b>ACM MM</b></span>, 2025.<br>
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2504.18576" target="_blank" rel="nofollow">Paper</a>	
+					| <a href="https://github.com/shalfun/DriVerse" target="_blank" rel="nofollow">Code</a>	
 				</div>
 			</div>
 		</div>
@@ -728,7 +779,11 @@
 					Zongchuang Zhao, Haoyu Fu, <span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang+</b></span>, Xin Zhou, Dingyuan Zhang, Hongwei Xie, Bing Wang, Xiang Bai
 				</div>
 				<div class="paperPub">
-					<span style="color:red"> <b>Arxiv</b></span>, 2025. <a href="https://arxiv.org/abs/2505.08725" target="_blank" rel="nofollow">Paper</a>. <a href="https://github.com/zc-zhao/DriveMonkey" target="_blank" rel="nofollow">Code</a>. <br> 
+					<span style="color:red"> <b>Arxiv</b></span>, 2025.<br>
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2505.08725" target="_blank" rel="nofollow">Paper</a>	
+					| <a href="https://github.com/zc-zhao/DriveMonkey" target="_blank" rel="nofollow">Code</a>	
 				</div>
 			</div>
 		</div>
@@ -943,6 +998,7 @@
 		</div> -->
 
 
+	</div>
 			
 		
 <div class="section">
@@ -1076,6 +1132,80 @@
 			<!-- Last update time end -->
 
 	</div>
-	
+	<script type="text/javascript">
+		(function () {
+			function normalizePublicationVenueLines() {
+				var root = document.getElementById('publications');
+				if (!root) return;
+				var papers = root.querySelectorAll('.paper');
+				for (var i = 0; i < papers.length; i++) {
+					var pubs = papers[i].querySelectorAll('.paperPub');
+					if (!pubs || pubs.length === 0) continue;
+
+					var chosen = null;
+					for (var j = 0; j < pubs.length; j++) {
+						var text = (pubs[j].textContent || '').trim();
+						if (/\b20\d{2}\b/.test(text)) {
+							chosen = pubs[j];
+							break;
+						}
+					}
+					if (!chosen) chosen = pubs[0];
+
+					for (var k = 0; k < pubs.length; k++) {
+						pubs[k].style.display = pubs[k] === chosen ? 'block' : 'none';
+					}
+
+					// Remove <br> to keep venue in a single line block.
+					var brs = chosen.getElementsByTagName('br');
+					while (brs.length > 0) {
+						brs[0].parentNode.removeChild(brs[0]);
+					}
+				}
+			}
+
+			function extractOwnerRepo(urlString) {
+				try {
+					var u = new URL(urlString);
+					if (!u.hostname || u.hostname.toLowerCase() !== 'github.com') return null;
+					var parts = u.pathname.split('/').filter(function (p) { return p; });
+					if (parts.length < 2) return null;
+					// Skip links like /topics/.. or other non-repo paths.
+					var owner = parts[0];
+					var repo = parts[1];
+					if (!owner || !repo) return null;
+					return owner + '/' + repo;
+				} catch (e) {
+					return null;
+				}
+			}
+
+			function addStarBadgeToLink(a) {
+				if (!a || !a.href) return;
+				if (a.getAttribute('data-gh-stars') === '1') return;
+				var text = (a.textContent || '').trim().toLowerCase();
+				if (text !== 'code') return;
+				var ownerRepo = extractOwnerRepo(a.href);
+				if (!ownerRepo) return;
+
+				var img = document.createElement('img');
+				img.className = 'gh-star-badge';
+				img.alt = 'GitHub stars';
+				img.loading = 'lazy';
+				img.decoding = 'async';
+				img.src = 'https://img.shields.io/github/stars/' + ownerRepo + '?style=social';
+
+				a.appendChild(img);
+				a.setAttribute('data-gh-stars', '1');
+			}
+
+			var codeLinks = document.querySelectorAll('.paper a[href*="github.com"]');
+			for (var i = 0; i < codeLinks.length; i++) {
+				addStarBadgeToLink(codeLinks[i]);
+			}
+
+			normalizePublicationVenueLines();
+		})();
+	</script>
 </body>
 </html>
