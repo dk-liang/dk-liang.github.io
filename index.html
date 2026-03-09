@@ -1,225 +1,677 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Dingkang Liang's academic homepage: Embodied AI, 3D Vision, World Models, and Dense Object Analysis.">
+	<title>Dingkang Liang</title>
 	<style>
+		:root{
+			--bg: #f5f7fb;
+			--panel: #ffffff;
+			--panel-soft: #f8fafc;
+			--text: #18212f;
+			--muted: #5f6f86;
+			--line: #dbe3ef;
+			--primary: #1f4f96;
+			--primary-dark: #163b70;
+			--accent: #b7791f;
+			--shadow: 0 18px 44px rgba(16, 38, 74, 0.08);
+			--radius: 22px;
+		}
+
+		*{
+			box-sizing: border-box;
+		}
+
+		html{
+			scroll-behavior: smooth;
+		}
+
 		body{
-			color: #333;
+			margin: 0;
+			color: var(--text);
+			background:
+				radial-gradient(circle at top left, rgba(31, 79, 150, 0.10), transparent 32%),
+				radial-gradient(circle at top right, rgba(183, 121, 31, 0.10), transparent 26%),
+				var(--bg);
+			font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
+			line-height: 1.75;
 		}
+
+		a{
+			color: var(--primary);
+			text-decoration: none;
+			transition: color 0.2s ease, opacity 0.2s ease;
+		}
+
+		a:hover{
+			color: var(--primary-dark);
+		}
+
+		img{
+			max-width: 100%;
+			display: block;
+		}
+
 		#container{
-			width: 1400px;
-			max-width: 95vw;
-			min-width: 0;
-/*			overflow: auto;
-*/			margin: 50px auto;padding: 30px;
-			/*zoom: 1;*/
-*//*			border: 1px solid #ccc;background: #fc9;color: #fff;
-*/		}
-		#left{
-			float: left;
-			width: 230px;
-			height: 250px;
-			margin-left: 0px;
+			width: 1320px;
+			max-width: calc(100vw - 32px);
+			margin: 28px auto 56px;
 		}
+
+		.page-nav{
+			position: sticky;
+			top: 16px;
+			z-index: 20;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+			padding: 12px 16px;
+			margin-bottom: 22px;
+			background: rgba(255, 255, 255, 0.85);
+			backdrop-filter: blur(14px);
+			border: 1px solid rgba(219, 227, 239, 0.9);
+			border-radius: 999px;
+			box-shadow: 0 10px 30px rgba(16, 38, 74, 0.08);
+		}
+
+		.page-nav a{
+			display: inline-flex;
+			align-items: center;
+			padding: 7px 14px;
+			border-radius: 999px;
+			font-size: 14px;
+			font-weight: 600;
+			color: var(--muted);
+		}
+
+		.page-nav a:hover{
+			background: #eef4ff;
+			color: var(--primary);
+		}
+
+		.hero{
+			display: grid;
+			grid-template-columns: 260px minmax(0, 1fr);
+			gap: 28px;
+			padding: 32px;
+			background: linear-gradient(135deg, rgba(255,255,255,0.96), rgba(244, 248, 255, 0.92));
+			border: 1px solid rgba(219, 227, 239, 0.95);
+			border-radius: 30px;
+			box-shadow: var(--shadow);
+		}
+
+		#left,
 		#right{
-			float: left;
+			float: none;
 			width: auto;
-			margin-left: 30px;
+			height: auto;
+			margin: 0;
 		}
+
+		#left{
+			display: flex;
+			flex-direction: column;
+			gap: 14px;
+		}
+
+		.profile-card{
+			padding: 14px;
+			background: var(--panel);
+			border: 1px solid var(--line);
+			border-radius: 24px;
+			box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+		}
+
+		.profile-card img{
+			width: 100%;
+			aspect-ratio: 1 / 1;
+			object-fit: cover;
+			border-radius: 18px;
+		}
+
+		.profile-note{
+			padding: 14px 16px;
+			background: linear-gradient(135deg, #f8fbff, #f7f5ef);
+			border: 1px solid var(--line);
+			border-radius: 18px;
+			font-size: 14px;
+			color: var(--muted);
+		}
+
+		.hero-kicker{
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			padding: 6px 12px;
+			border-radius: 999px;
+			background: #edf4ff;
+			color: var(--primary);
+			font-size: 13px;
+			font-weight: 700;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+		}
+
 		#name{
-			font-size: 22.0pt;
-		    mso-bidi-font-size: 24.0pt;
-		    font-family: Times;
-		    mso-bidi-font-family: Times;
-		        font-weight: bold;
+			margin: 14px 0 10px;
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 46px;
+			line-height: 1.12;
+			font-weight: 700;
+			color: #0f1f38;
 		}
+
+		.name-en{
+			color: var(--primary);
+		}
+
+		.name-zh{
+			font-size: 0.6em;
+			font-weight: 600;
+			color: var(--muted);
+		}
+
 		#info{
-		    font-size: 16.0pt;
-		    mso-bidi-font-size: 16.0pt;
-		    font-family: Times;
-		    mso-bidi-font-family: Times;
-		    margin-top: 30px;
-		    margin-left: 5px;
-		    margin-bottom: 10px;
-		    
+			margin: 0;
+			font-size: 18px;
+			color: var(--muted);
 		}
-		.clear{clear:both; height: 0; line-height: 0; font-size: 0}
+
+		.info-lines{
+			display: grid;
+			gap: 6px;
+			margin: 14px 0 0;
+		}
+
+		.info-lines div{
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+		}
+
+		.info-label{
+			font-weight: 700;
+			color: #334155;
+		}
+
+		.hero-summary{
+			margin-top: 18px;
+			max-width: 900px;
+			font-size: 17px;
+			color: #334155;
+		}
+
+		.hero-actions{
+			display: flex;
+			flex-wrap: wrap;
+			gap: 12px;
+			margin-top: 22px;
+		}
+
+		.hero-link{
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			padding: 10px 18px;
+			border-radius: 999px;
+			border: 1px solid var(--line);
+			background: var(--panel);
+			font-weight: 700;
+			color: var(--primary);
+			box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+		}
+
+		.metric-link{
+			align-items: flex-start;
+			justify-content: flex-start;
+			flex-direction: column;
+			gap: 2px;
+			min-width: 230px;
+			padding: 14px 20px;
+		}
+
+		.hero-link-title{
+			font-size: 18px;
+			line-height: 1.2;
+			font-weight: 800;
+		}
+
+		.hero-link-metric{
+			font-size: 13px;
+			font-weight: 600;
+			letter-spacing: 0.01em;
+			opacity: 0.9;
+		}
+
+		.hero-link-count{
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 1.15;
+		}
+
+		.hero-link.primary{
+			background: linear-gradient(135deg, var(--primary), #295fb2);
+			border-color: transparent;
+			color: #fff;
+		}
+
+		.highlight-grid{
+			display: grid;
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+			gap: 16px;
+			margin-top: 24px;
+		}
+
+		.highlight-card{
+			padding: 18px 20px;
+			background: rgba(255, 255, 255, 0.75);
+			border: 1px solid var(--line);
+			border-radius: 20px;
+		}
+
+		.highlight-value{
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 26px;
+			font-weight: 700;
+			color: #10284f;
+		}
+
+		.highlight-label{
+			margin-top: 6px;
+			font-size: 14px;
+			color: var(--muted);
+		}
+
+		.clear{clear: both; height: 0; line-height: 0; font-size: 0}
+
+		.section{
+			margin-top: 26px;
+			padding: 28px 30px;
+			background: var(--panel);
+			border: 1px solid var(--line);
+			border-radius: var(--radius);
+			box-shadow: var(--shadow);
+		}
+
+		span.Title{
+			display: inline-flex;
+			align-items: center;
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 34px;
+			font-weight: 700;
+			color: #10284f;
+		}
+
+		span.Title::after{
+			content: "";
+			display: inline-block;
+			width: 72px;
+			height: 2px;
+			margin-left: 16px;
+			background: linear-gradient(90deg, var(--accent), transparent);
+		}
+
+		hr{
+			margin: 14px 0 20px;
+			border: none;
+			height: 1px;
+			background: linear-gradient(90deg, rgba(31, 79, 150, 0.35), rgba(31, 79, 150, 0.03));
+		}
+
 		.Bio{
-			font-size:16.0pt;
-			mso-bidi-font-size:17.0pt;
-			line-height:150%;
-			font-family:Times;
-			mso-bidi-font-family:Lato-Regular;
+			position: relative;
+			padding: 24px 28px;
+			background: linear-gradient(180deg, #fbfdff, #f7f9fc);
+			border: 1px solid #e6edf7;
+			border-radius: 20px;
+			font-size: 17px;
+			line-height: 1.9;
+			color: #334155;
 			text-align: justify;
 		}
-		span.SpellE {
-		    mso-style-name: "";
-		    mso-spl-e: yes;
-		}
-		span.Title{
-			    font-size: 22.0pt;
-			    mso-bidi-font-size: 17.0pt;
-			    font-family: Times;
-			    mso-bidi-font-family: Lato-Regular;
-			    font: bold;
-			    margin-top: 10px;
-			    width: 100%;
-		}
-		div.section{
-			padding-top: 30px;
-		}
-		
-		div.sub-left{
-			float: left;
-			width: 250px;
-						
-		}
-		div.sub-left img{
-			vertical-align: middle;
-			horizontal-align: middle;
-			margin-top: 10px;
-		}
-		
-		div.sub-left span{
-			height: 100%;
-			display: inline-block;
-			vertical-align: top;
-						
-		}
-		div.sub-right{
-			float: left;
-			width: 750px;			
-		}
-		.paper{
-			overflow: auto;
-			zoom:1;
-			border-top: 2px ;
-			padding-bottom: 0px;
-			min-height: 160px;
 
-		}
-		.paperTitle{
-			font-size:14pt;
-			mso-bidi-font-size:14pt;
-			font-family:Calibri;
-			mso-bidi-font-family:Calibri;
-			margin-top: 10px;
-			margin-bottom: 5px;
-			font-weight: bold;
-		}
-		.paperName{
-		    font-size: 12pt;
-		    mso-bidi-font-size: 12pt;		    
-		    font-family: Calibri;
-		    mso-bidi-font-family: Times;
-		    line-height:160%;
-		    font-style: italic;
-		}		
-		.paperPub{
-		    font-size: 14pt;
-		    mso-bidi-font-size: 14pt;		    
-		    font-family: Calibri;
-		    mso-bidi-font-family: Times;		    
-		    font-style: italic;
-		    line-height:160%;
-		}
-		.paperLink{
-		    font-size: 13.0pt;
-		    mso-bidi-font-size: 13.0pt;		    
-		    font-family: Calibri;
-		    mso-bidi-font-family: Times;
-		    line-height:170%;
-		}
-		/* Selected publications: unify layout and avoid per-item scrollbars */
-		#publications .paper{
-			overflow: visible;
-			display: flex;
-			align-items: flex-start;
-			padding-bottom: 10px;
-		}
-		#publications .sub-left,
-		#publications .sub-right{
-			float: none;
+		.bio-wechat{
+			float: right;
+			width: 168px;
 			height: auto;
+			margin: 0 0 10px 22px;
+			padding: 10px;
+			background: #fff;
+			border: 1px solid var(--line);
+			border-radius: 16px;
+			box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
 		}
+
+		.pill-list{
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+			margin: 18px 0 0;
+		}
+
+		.pill{
+			display: inline-flex;
+			align-items: center;
+			padding: 8px 14px;
+			border-radius: 999px;
+			background: #eef4ff;
+			border: 1px solid #d6e3fb;
+			font-size: 14px;
+			font-weight: 600;
+			color: var(--primary);
+		}
+
+		.paper{
+			overflow: visible;
+			zoom: 1;
+			min-height: 0;
+		}
+
+		.paperTitle{
+			font-size: 21px;
+			margin: 0 0 8px;
+			font-weight: 700;
+			color: #0f1f38;
+		}
+
+		.paperName,
+		.paperPub,
+		.paperLink{
+			font-size: 15px;
+			color: #475569;
+			line-height: 1.8;
+		}
+
+		.paperName{
+			font-style: normal;
+		}
+
+		.paperPub{
+			font-style: normal;
+			font-weight: 600;
+		}
+
+		.paperLink{
+			font-size: 14px;
+		}
+
+		#news .paper{
+			min-height: 0;
+		}
+
+		#news .paperName{
+			max-height: 520px !important;
+			padding: 10px 8px 10px 2px !important;
+			overflow-y: auto !important;
+			font-size: 15px;
+			line-height: 1.95;
+		}
+
+		.news-list{
+			margin: 0;
+			padding: 0 0 0 18px;
+			list-style: none;
+		}
+
+		.news-list li{
+			position: relative;
+			margin: 0 0 12px;
+			padding: 0 0 12px 18px;
+			border-bottom: 1px dashed #e2e8f0;
+		}
+
+		.news-list li:last-child{
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+
+		.news-list li::before{
+			content: "";
+			position: absolute;
+			left: -1px;
+			top: 10px;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background: var(--primary);
+			box-shadow: 0 0 0 4px rgba(31, 79, 150, 0.10);
+		}
+
+		#news .paperName::-webkit-scrollbar{
+			width: 8px;
+		}
+
+		#news .paperName::-webkit-scrollbar-thumb{
+			background: #cad6e7;
+			border-radius: 999px;
+		}
+
+		#publications{
+			display: grid;
+			gap: 18px;
+		}
+
+		#publications .paper{
+			display: flex;
+			align-items: stretch !important;
+			gap: 22px;
+			padding: 20px;
+			background: linear-gradient(180deg, #ffffff, #fbfcfe);
+			border: 1px solid #e7edf5;
+			border-radius: 22px;
+			box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
+			transition: transform 0.2s ease, box-shadow 0.2s ease;
+		}
+
+		#publications .paper:hover{
+			transform: translateY(-3px);
+			box-shadow: 0 18px 34px rgba(15, 23, 42, 0.08);
+		}
+
+		#publications .sub-left,
+		#publications .sub-right,
+		.short div.sub-left,
+		.short div.sub-right,
+		div.sub-left,
+		div.sub-right{
+			float: none;
+			height: auto !important;
+		}
+
 		#publications .sub-left{
-			width: 220px;
-			margin-right: 20px;
+			width: 220px !important;
 			flex: 0 0 220px;
+			margin-right: 0 !important;
 		}
+
 		#publications .sub-right{
-			width: auto;
+			width: auto !important;
 			flex: 1 1 auto;
 		}
-		#publications .paperTitle,
-		#publications .paperName,
-		#publications .paperPub,
-		#publications .paperLink{
-			display: block;
-			white-space: normal;
-			overflow: visible;
-			text-overflow: clip;
-		}
-		#publications .paperPub{
-			display: block;
-		}
-		.special{
-		    margin-top: 0in;
-		    margin-bottom: 0in;
-		    margin-left: -.9pt;
-		    margin-bottom: .0001pt;
-		    text-indent: .9pt;
-		    mso-pagination: none;
-		    tab-stops: 13.75in;
-		    mso-layout-grid-align: none;
-		    text-autospace: none;
-		}
-		.long div.sub-left, .long div.sub-right{
-			height: 300px;
-			width: 980px;
 
+		#publications .sub-left img{
+			width: 100%;
+			height: 140px;
+			margin-top: 0;
+			object-fit: cover;
+			border-radius: 16px;
+			border: 1px solid #e5eaf1;
 		}
-		.short div.sub-left, .short div.sub-right{
-			height:150px;
 
+		#publications .paperPub span{
+			display: inline-flex;
+			align-items: center;
+			padding: 4px 10px;
+			border-radius: 999px;
+			background: #fff3e0;
+			color: #9a5b08 !important;
 		}
-		div.sub-left,div.sub-right{
-			height:200px;
 
+		#publications .paperLink a{
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			margin-right: 12px;
+			font-weight: 700;
 		}
+
+		.long div.sub-left,
+		.long div.sub-right{
+			width: auto !important;
+			height: auto !important;
+		}
+
+		.list-card{
+			padding: 22px 24px;
+			background: linear-gradient(180deg, #fbfdff, #f7f9fc);
+			border: 1px solid #e6edf7;
+			border-radius: 20px;
+		}
+
+		.compact-intro{
+			margin: 0 0 14px;
+			font-size: 16px;
+			color: var(--muted);
+		}
+
+		.section .paperName b{
+			font-weight: 600;
+		}
+
 		.gh-star-badge{
 			vertical-align: middle;
 			height: 18px;
 			margin-left: 6px;
 		}
-		.bio-wechat{
-			float: right;
-			width: 170px;
-			height: auto;
-			margin: 6px 0 10px 18px;
+
+		.footer-meta{
+			margin-top: 26px;
+			padding-top: 18px;
+			border-top: 1px solid var(--line);
+			text-align: center;
+			font-size: 14px;
+			color: var(--muted);
+		}
+
+		.special{
+			margin-top: 0;
+			margin-bottom: 0;
+			text-indent: 0;
+		}
+
+		@media (max-width: 1080px){
+			.hero{
+				grid-template-columns: 1fr;
+			}
+
+			.highlight-grid{
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+
+			#publications .paper{
+				flex-direction: column;
+			}
+
+			#publications .sub-left{
+				width: 100% !important;
+				flex-basis: auto;
+			}
+		}
+
+		@media (max-width: 720px){
+			#container{
+				max-width: calc(100vw - 18px);
+				margin: 12px auto 36px;
+			}
+
+			.page-nav{
+				position: static;
+				border-radius: 20px;
+			}
+
+			.hero,
+			.section{
+				padding: 22px 18px;
+				border-radius: 22px;
+			}
+
+			#name{
+				font-size: 34px;
+			}
+
+			span.Title{
+				font-size: 28px;
+			}
+
+			.highlight-grid{
+				grid-template-columns: 1fr;
+			}
+
+			.bio-wechat{
+				float: none;
+				width: min(100%, 200px);
+				margin: 0 auto 18px;
+			}
 		}
 	</style>
 </head>
 <body>
 	<div id="container">
-		<div id="left">			
-			<img width="230" height="230" src="imgs/dkliang.jpg">
+		<div class="page-nav">
+			<a href="#bio">Bio</a>
+			<a href="#news">News</a>
+			<a href="#publications-section">Publications</a>
+			<a href="#competition">Competition</a>
+			<a href="#service">Service</a>
+			<a href="#students">Students</a>
 		</div>
-		<div id="right">
-			<div id="name"><span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang</b></span> (梁定康) </div>
-			<div id="info">
-				
-				Huazhong University of Science and Technology<p>
-				Email: dkliang@hust.edu.cn<p>				
+
+		<div class="hero">
+			<div id="left">
+				<div class="profile-card">
+					<img width="230" height="230" src="imgs/dkliang.jpg" alt="Portrait of Dingkang Liang">
+				</div>
+				<div class="profile-note">
+					Focused on <b>Embodied AI</b>, <b>3D Vision</b>, <b>World Models</b>, and <b>Dense Object Analysis</b>.
+				</div>
 			</div>
-		
-			     <a href="https://github.com/dk-liang" target="_blank" rel="nofollow"><span>Github</span></a>  |
-				 <a href="https://scholar.google.com/citations?user=Tre69v0AAAAJ&hl=zh-CN" target="_blank" rel="nofollow"><span>Google Scholar</span></a> |
-				 <a href="Dingkang_Liang_CV.pdf" target="_blank" rel="nofollow"><span>CV</span></a>  
-			
+			<div id="right">
+				<div class="hero-kicker">Academic Homepage</div>
+				<div id="name"><span class="name-en">Dingkang Liang</span> <span class="name-zh">梁定康</span></div>
+				<div id="info">
+					Researcher in computer vision and embodied intelligence.
+					<div class="info-lines">
+						<div><span class="info-label">Affiliation:</span><span>Huazhong University of Science and Technology</span></div>
+						<div><span class="info-label">Email:</span><span><a href="mailto:dkliang@hust.edu.cn">dkliang@hust.edu.cn</a></span></div>
+						<div><span class="info-label">Open to:</span><span>Research collaboration, invited talks, and internships</span></div>
+					</div>
+				</div>
+				<div class="hero-summary">
+					I work on building robust visual intelligence systems spanning perception, understanding, generation, and embodied decision-making, with a particular interest in scalable world models and real-world 3D scene reasoning.
+				</div>
+				<div class="hero-actions">
+					<a class="hero-link primary metric-link" href="https://scholar.google.com/citations?user=Tre69v0AAAAJ&hl=zh-CN" target="_blank" rel="nofollow" data-scholar-user-id="Tre69v0AAAAJ" data-citation-count="2603">
+						<span class="hero-link-title">Google Scholar</span>
+						<span class="hero-link-count" id="scholar-citation-count">2,603</span>
+						<span class="hero-link-metric">citations</span>
+					</a>
+					<a class="hero-link metric-link" href="https://github.com/dk-liang" target="_blank" rel="nofollow" data-star-total="12566">
+						<span class="hero-link-title">GitHub</span>
+						<span class="hero-link-count" id="github-total-stars">12.6K</span>
+						<span class="hero-link-metric">total stars across repositories below</span>
+					</a>
+					<a class="hero-link" href="Dingkang_Liang_CV.pdf" target="_blank" rel="nofollow">Curriculum Vitae</a>
+				</div>
 			</div>
+		</div>
 
 		<div class="clear"></div>
-		<div class="section">
+		<div class="section" id="bio">
 			<span class="Title"><b>Brief Bio</b></span><p>			
 				<div class="Bio">
 					<img class="bio-wechat" src="imgs/wechat.jpg" alt="WeChat QR">
@@ -227,17 +679,26 @@
 					I received my Ph.D. degree from Huazhong University of Science and Technology in 2025, supervised by Prof. <a href="https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=zh-CN" target="_blank" rel="nofollow">Xiang Bai</a>. I received my M.S. degree from Huazhong University of Science and Technology in 2022 and my B.E. degree from Nanjing University of Posts and Telecommunications in 2019.
 					My research interests mainly lie in Embodied AI, 3D Vision, World Model and Dense Object Analysis. <span style="color:red"> I serve as an Associate Editor for Pattern Recognition (PR) and an Area Chair for top-tier conferences such as ECCV. </span>
 					
-					<br><br> 
-					During my Ph.D., I was selected for the Youth Student Fundamental Research Project from NSFC (首批国家自然科学基金博士生项目入选者) and the Young Elite Scientists Sponsorship Program-Doctoral Student Special Plan from CAST (首批中国科协青年人才托举工程-博士生专项入选者), with a total funding of <span style="color:red">  <b> 340,000 RMB (~ 47,000 USD)</b></span>. 
-					Additionally, I have won multiple championships in top-tier computer vision competitions, which earned me a prize of <span style='color:red'> <b>200,000 RMB (~ 28,000 USD)</b></span>. <br> <br> 
+					<br><br>
+					During my Ph.D., I was selected for the Youth Student Fundamental Research Project from NSFC (首批国家自然科学基金博士生项目入选者) and the Young Elite Scientists Sponsorship Program-Doctoral Student Special Plan from CAST (首批中国科协青年人才托举工程-博士生专项入选者), with a total funding of <span style="color:red"><b>340,000 RMB (~47,000 USD)</b></span>.
+					Additionally, I have won multiple championships in top-tier computer vision competitions, which earned me a prize of <span style='color:red'><b>200,000 RMB (~28,000 USD)</b></span>.
+					<br><br>
 
-					I am open to research collaborations and internship opportunities. I have also mentored several undergraduate and graduate students who successfully published their work in top-tier conferences and journals. Please feel free to reach out to me via Email (dkliang@hust.edu.cn) or WeChat (liangdingkang)
+					I am open to research collaborations and internship opportunities. I have also mentored several undergraduate and graduate students who successfully published their work in top-tier conferences and journals. Please feel free to reach out to me via Email (<a href="mailto:dkliang@hust.edu.cn">dkliang@hust.edu.cn</a>) or WeChat (liangdingkang).
+
+					<div class="pill-list">
+						<span class="pill">Embodied AI</span>
+						<span class="pill">3D Vision</span>
+						<span class="pill">World Models</span>
+						<span class="pill">Dense Object Analysis</span>
+						<span class="pill">Open for Collaboration</span>
+					</div>
 		<!-- <li><b>PhD:</b> Huazhong University of Science and Technology (2022–), under the supervision of Prof. <a href="https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=en" target="_blank">Xiang Bai</a>.</li>
 		<li><b>MA:</b> Huazhong University of Science and Technology (2019–2022), under the supervision of Prof. <a href="https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=en" target="_blank">Xiang Bai</a>, Prof. <a href="https://scholar.google.fr/citations?user=ArIg7-0AAAAJ&hl=fr" target="_blank">Yongchao Xu</a> and Prof. Yu Zhou</a>.</li>
 		<li><b>BA:</b> Nanjing University of Posts and Telecommunication (2015–2019), under the supervision of Dr. Xiang Wan, Prof. Jian Xiao, and Prof. Yi Tong. -->
 		</div>
 
-	<div class="section">
+	<div class="section" id="news">
 		<span class="Title"><b>News</b></span>
 		<p>
 		<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
@@ -303,7 +764,7 @@
 				
 
 	<div class="clear"></div>
-	<div class="section">
+	<div class="section" id="publications-section">
 	<span class="Title"><b>Selected publications (<a href="https://scholar.google.com/citations?user=Tre69v0AAAAJ&hl=zh-CN" target="_blank" rel="nofollow">ALL </a>)</b></span><p><p>
 	<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
 	(* Co-first author, # Corresponding author, + Project leader) <br> <br>
@@ -348,7 +809,7 @@
 				</div>
 				<div class="paperLink">
 					| <a href="https://arxiv.org/abs/2511.18131" target="_blank" rel="nofollow">Paper</a>	
-					| <a href="" target="_blank" rel="nofollow">Code</a>	
+							| <span style="color:#94a3b8; font-weight:700;">Coming Soon</span>
 				</div>
 			</div>
 		</div>
@@ -371,7 +832,7 @@
 				</div>
 				<div class="paperLink">
 					| <a href="https://arxiv.org/abs/2511.18838" target="_blank" rel="nofollow">Paper</a>	
-					| <a href="" target="_blank" rel="nofollow">Code</a>	
+							| <span style="color:#94a3b8; font-weight:700;">Coming Soon</span>
 				</div>
 			</div>
 		</div>
@@ -1031,11 +1492,11 @@
 	</div>
 			
 		
-<div class="section">
+<div class="section" id="competition">
 
 				<span class="Title"><b>Competition</b></span><p>
 					<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
-					<div class="paperName"><b>
+					<div class="list-card paperName"><b>
 						<li> The <b>1st place</b> in the ECCV 2024 FishNet Classification Challenge<br>
 						<li> The <b>2nd place</b> in The First Dataset Distillation Challenge (ECCV 2024) on the Fixed IPC Track<br>
 						<li>The <b>4th place</b> of the 3D object detection track in CSIG-challenge 2022</li>
@@ -1056,10 +1517,10 @@
 					</div>		
 
 
-				<span class="Title"><b>Professional Service</b></span><p>
+				<span class="Title" id="service"><b>Professional Service</b></span><p>
 				<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
 		
-				<div class="paperName"><b>
+				<div class="list-card paperName"><b>
 					
 				<span style="color:red">Area Chair at ECCV 2026</span> <br>
 				<span style="color:red">Outstanding reviewer at <a href="https://iccv2023.thecvf.com/outstanding.reviewers-118.php">ICCV 2023</a> and <a href="https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer">CVPR 2025</a> </span> <br>
@@ -1086,12 +1547,12 @@
 		
 
 
-				<span class="Title"><b>Co-supervised Students</b></span><p>
+				<span class="Title" id="students"><b>Co-supervised Students</b></span><p>
 					<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
 					
-					<p>As a passionate collaborator, I am always open to working with fellow researchers. I have had the privilege of co-supervising several talented students. If you are interested in collaborating, feel free to reach out to me.</p>
+					<p class="compact-intro">As a collaborator and mentor, I enjoy working with motivated students on ambitious research problems. If you are interested in collaboration, feel free to get in touch.</p>
 				
-					<div class="paperName"><b>
+					<div class="list-card paperName"><b>
 						已毕业的研究生：<br>
 						• Dingyuan Zhang. Master degree, graduating in 2025. Now at Xiaomi. 一作ICCV 23, ECCV 24, RAL 24, SCIS 23. <br>
 						• Wei Hua. Master degree, graduating in 2024. Now at Jiangxi Electric Power Grid Corporation. 一作CVPR 23, ICDAR 23. <br>
@@ -1157,14 +1618,39 @@
 		
 
 			<!-- Last update time begjin -->
-			<div style="border-top: 3px solid #555; text-align: center;">
-				<p style="color: #555;">Last updated: 2025-11-16</p>
+			<div class="footer-meta">
+				<p>Last updated: 2026-03-09</p>
 			</div>
 			<!-- Last update time end -->
 
 	</div>
 	<script type="text/javascript">
 		(function () {
+			function formatNewsList() {
+				var newsRoot = document.querySelector('#news .paperName');
+				if (!newsRoot || newsRoot.getAttribute('data-formatted') === '1') return;
+
+				var items = newsRoot.innerHTML
+					.split(/<br\s*\/?\s*>/i)
+					.map(function (item) {
+						return item.replace(/<\/?b>/gi, '').trim();
+					})
+					.filter(function (item) {
+						return item.length > 0;
+					});
+
+				if (!items.length) return;
+
+				var html = '<ul class="news-list">';
+				for (var i = 0; i < items.length; i++) {
+					html += '<li>' + items[i] + '</li>';
+				}
+				html += '</ul>';
+
+				newsRoot.innerHTML = html;
+				newsRoot.setAttribute('data-formatted', '1');
+			}
+
 			function normalizePublicationVenueLines() {
 				var root = document.getElementById('publications');
 				if (!root) return;
@@ -1230,11 +1716,138 @@
 				a.setAttribute('data-gh-stars', '1');
 			}
 
+			function formatCount(value) {
+				var num = Number(value);
+				if (!isFinite(num)) return String(value || '--');
+				return new Intl.NumberFormat('en-US').format(num);
+			}
+
+			function formatCompactCount(value) {
+				var num = Number(value);
+				if (!isFinite(num)) return String(value || '--');
+				return new Intl.NumberFormat('en-US', {
+					notation: 'compact',
+					maximumFractionDigits: 1
+				}).format(num);
+			}
+
+			function setScholarCitationCount() {
+				var countEl = document.getElementById('scholar-citation-count');
+				if (!countEl) return;
+				var holder = countEl.closest('[data-citation-count]');
+				if (!holder) return;
+				var raw = holder.getAttribute('data-citation-count');
+				countEl.textContent = formatCount(raw);
+				holder.title = formatCount(raw) + ' citations';
+			}
+
+			function collectUniqueRepos() {
+				var seen = {};
+				var repos = [];
+				var extraRepos = ['dk-liang/Awesome-Visual-Transformer'];
+				var links = document.querySelectorAll('#publications .paper a[href*="github.com"]');
+				for (var i = 0; i < links.length; i++) {
+					var ownerRepo = extractOwnerRepo(links[i].href);
+					if (!ownerRepo || seen[ownerRepo]) continue;
+					seen[ownerRepo] = true;
+					repos.push(ownerRepo);
+				}
+				for (var j = 0; j < extraRepos.length; j++) {
+					if (seen[extraRepos[j]]) continue;
+					seen[extraRepos[j]] = true;
+					repos.push(extraRepos[j]);
+				}
+				return repos;
+			}
+
+			function setGithubTotalStars(total, repoCount) {
+				var el = document.getElementById('github-total-stars');
+				if (!el) return;
+				el.textContent = formatCompactCount(total);
+				el.title = formatCount(total) + ' total GitHub stars';
+				var metric = el.parentNode && el.parentNode.querySelector('.hero-link-metric');
+				if (metric && repoCount) {
+					metric.textContent = 'total stars across ' + repoCount + ' repositories below';
+				}
+			}
+
+			function setGithubFallbackStars() {
+				var el = document.getElementById('github-total-stars');
+				if (!el || !el.parentNode) return;
+				var raw = el.parentNode.getAttribute('data-star-total');
+				if (!raw) return;
+				el.textContent = formatCompactCount(raw);
+				el.title = formatCount(raw) + ' total GitHub stars';
+			}
+
+			function createRepoSignature(repos) {
+				return repos.slice().sort().join('|');
+			}
+
+			function loadGithubTotalStars() {
+				var repos = collectUniqueRepos();
+				if (!repos.length) return;
+				var signature = createRepoSignature(repos);
+				setGithubFallbackStars();
+
+				var cacheKey = 'github-total-stars-v1';
+				try {
+					var cached = JSON.parse(localStorage.getItem(cacheKey) || 'null');
+					if (cached && cached.timestamp && Date.now() - cached.timestamp < 12 * 60 * 60 * 1000 && cached.signature === signature) {
+						setGithubTotalStars(cached.total, cached.repoCount);
+					}
+				} catch (e) {}
+
+				Promise.all(repos.map(function (ownerRepo) {
+					return fetch('https://api.github.com/repos/' + ownerRepo)
+						.then(function (response) {
+							if (!response.ok) throw new Error('Failed to fetch ' + ownerRepo);
+							return response.json();
+						})
+						.then(function (data) {
+							return {
+								repo: ownerRepo,
+								stars: Number(data.stargazers_count || 0),
+								ok: true
+							};
+						})
+						.catch(function () {
+							return {
+								repo: ownerRepo,
+								stars: 0,
+								ok: false
+							};
+						});
+				})).then(function (results) {
+					var failed = results.filter(function (item) {
+						return !item.ok;
+					});
+					if (failed.length > 0) {
+						return;
+					}
+					var total = results.reduce(function (sum, item) {
+						return sum + item.stars;
+					}, 0);
+					setGithubTotalStars(total, repos.length);
+					try {
+						localStorage.setItem(cacheKey, JSON.stringify({
+							timestamp: Date.now(),
+							total: total,
+							repoCount: repos.length,
+							signature: signature
+						}));
+					} catch (e) {}
+				});
+			}
+
 			var codeLinks = document.querySelectorAll('.paper a[href*="github.com"]');
 			for (var i = 0; i < codeLinks.length; i++) {
 				addStarBadgeToLink(codeLinks[i]);
 			}
 
+			setScholarCitationCount();
+			loadGithubTotalStars();
+			formatNewsList();
 			normalizePublicationVenueLines();
 		})();
 	</script>
