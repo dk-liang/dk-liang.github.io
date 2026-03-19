@@ -549,18 +549,18 @@
 			margin-left: 6px;
 		}
 
-		.footer-meta{
-			margin-top: 26px;
-			padding-top: 18px;
-			border-top: 1px solid var(--line);
-			text-align: center;
-			font-size: 14px;
-			color: var(--muted);
-		}
+			.footer-meta{
+				margin-top: 26px;
+				padding-top: 18px;
+				border-top: 1px solid var(--line);
+				text-align: center;
+				font-size: 14px;
+				color: var(--muted);
+			}
 
-		.special{
-			margin-top: 0;
-			margin-bottom: 0;
+			.special{
+				margin-top: 0;
+				margin-bottom: 0;
 			text-indent: 0;
 		}
 
@@ -583,7 +583,7 @@
 			}
 		}
 
-		@media (max-width: 720px){
+			@media (max-width: 720px){
 			#container{
 				max-width: calc(100vw - 18px);
 				margin: 12px auto 36px;
@@ -612,12 +612,13 @@
 				grid-template-columns: 1fr;
 			}
 
-			.bio-wechat{
-				float: none;
-				width: min(100%, 200px);
-				margin: 0 auto 18px;
+				.bio-wechat{
+					float: none;
+					width: min(100%, 200px);
+					margin: 0 auto 18px;
+				}
+
 			}
-		}
 	</style>
 </head>
 <body>
@@ -655,9 +656,9 @@
 					I work on building robust visual intelligence systems spanning perception, understanding, generation, and embodied decision-making, with a particular interest in scalable world models and real-world 3D scene reasoning.
 				</div>
 				<div class="hero-actions">
-					<a class="hero-link primary metric-link" href="https://scholar.google.com/citations?user=Tre69v0AAAAJ&hl=zh-CN" target="_blank" rel="nofollow" data-scholar-user-id="Tre69v0AAAAJ" data-citation-count="2603">
+					<a class="hero-link primary metric-link" href="https://scholar.google.com/citations?user=Tre69v0AAAAJ&hl=zh-CN" target="_blank" rel="nofollow" data-scholar-user-id="Tre69v0AAAAJ" data-citation-count="2642">
 						<span class="hero-link-title">Google Scholar</span>
-						<span class="hero-link-count" id="scholar-citation-count">2,603</span>
+						<span class="hero-link-count" id="scholar-citation-count">2,642</span>
 						<span class="hero-link-metric">citations</span>
 					</a>
 					<a class="hero-link metric-link" href="https://github.com/dk-liang" target="_blank" rel="nofollow" data-star-total="12566">
@@ -767,13 +768,35 @@
 	<div class="section" id="publications-section">
 	<span class="Title"><b>Selected publications (<a href="https://scholar.google.com/citations?user=Tre69v0AAAAJ&hl=zh-CN" target="_blank" rel="nofollow">ALL </a>)</b></span><p><p>
 	<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
-	(* Co-first author, # Corresponding author, + Project leader) <br> <br>
+	(* Co-first author, # Corresponding author, + Project lead) <br> <br>
 	<div id="publications">
 
-		<!-- UniFuture -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<!-- DOMINO -->
+		<div class="paper short" data-order="15" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
-				<img border="0" width="200" height="130" src="imgs/UniFuture.jpg">
+				<img border="0" width="200" height="130" src="imgs/DOMINO.gif">
+			</div>
+			<div class="sub-right" style="flex-grow: 1;">
+				<div class="paperTitle">
+					Towards Generalizable Robotic Manipulation in Dynamic Environments
+				</div>
+				<div class="paperName">
+					Heng Fang, Shangru Li, Shuhan Wang, Xuanyang Xi, <span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang+</b></span>, Xiang Bai
+				</div>
+				<div class="paperPub">
+					<span style="color:red"> <b>arXiv</b></span>, 2026.<br> 
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2603.15620" target="_blank" rel="nofollow">Paper</a>	
+					| <a href="https://github.com/H-EmbodVis/DOMINO" target="_blank" rel="nofollow">Code</a>	
+				</div>
+			</div>
+		</div>
+
+		<!-- UniFuture -->
+		<div class="paper short" data-order="10" style="display: flex; align-items: center;">
+			<div class="sub-left" style="margin-right: 20px;">
+				<img border="0" width="200" height="130" src="imgs/UniFuture.gif">
 			</div>
 			<div class="sub-right" style="flex-grow: 1;">
 				<div class="paperTitle">
@@ -793,7 +816,7 @@
 		</div>
 
 		<!-- Video4Edit -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="51" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
 				<img border="0" width="200" height="130" src="imgs/Video4Edit.png">
 			</div>
@@ -816,7 +839,7 @@
 		
 
 		<!-- FVAR -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="52" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
 				<img border="0" width="200" height="130" src="imgs/FVAR.png">
 			</div>
@@ -839,9 +862,9 @@
 		
 		
 		<!-- MindDrive -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="25" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
-				<img border="0" width="200" height="130" src="https://xiaomi-mlab.github.io/MindDrive/static/images/framework.png">
+				<img border="0" width="200" height="130" src="imgs/MindDrive.gif">
 			</div>
 			<div class="sub-right" style="flex-grow: 1;">
 				<div class="paperTitle">
@@ -861,9 +884,9 @@
 		</div>
 
 		<!-- GRANT -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="20" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
-				<img border="0" width="200" height="130" src="imgs/Grant.png">
+				<img border="0" width="200" height="130" src="imgs/Grant.gif">
 			</div>
 			<div class="sub-right" style="flex-grow: 1;">
 				<div class="paperTitle">
@@ -883,7 +906,7 @@
 		</div>
 
 		<!-- PointMamba -->
-		<div class="paper short">
+		<div class="paper short" data-order="30">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/PointMamba.jpg">
@@ -906,7 +929,7 @@
 		</div>
 
 		<!-- SOOD++ -->
-		<div class="paper short">
+		<div class="paper short" data-order="190">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/SOOD++.jpg">
@@ -929,7 +952,7 @@
 		</div>
 
 		<!-- PointGST -->
-		<div class="paper short">
+		<div class="paper short" data-order="40">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/PointGST.jpg">
@@ -953,7 +976,7 @@
 
 
 		<!-- HERMES -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="50" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
 				<img border="0" width="200" height="130" src="imgs/HERMES.jpg">
 			</div>
@@ -975,7 +998,7 @@
 		</div>
 
 		<!--CrowdCLIP	 -->
-		<div class="paper short">
+		<div class="paper short" data-order="310">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/CrowdCLIP.jpg">
@@ -998,7 +1021,7 @@
 		</div>
 
 		<!-- CLTR -->
-		<div class="paper short">
+		<div class="paper short" data-order="320">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/CLTR.jpg">
@@ -1021,7 +1044,7 @@
 		</div>
 
 		<!-- ToC3D -->
-		<div class="paper short">
+		<div class="paper short" data-order="60">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/ToC3D.jpg">
@@ -1044,7 +1067,7 @@
 		</div>
 
 		<!-- FIDTM -->
-		<div class="paper short">
+		<div class="paper short" data-order="330">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/FIDTM.jpg">
@@ -1070,7 +1093,7 @@
 		</div>
 
 		<!-- TransCrowd -->
-		<div class="paper short">
+		<div class="paper short" data-order="340">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/TransCrowd.jpg">
@@ -1097,7 +1120,7 @@
 
 
 		<!-- DAPT -->
-		<div class="paper short">
+		<div class="paper short" data-order="70">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/DAPT.jpg">
@@ -1120,7 +1143,7 @@
 		</div>	
 
 		<!-- ViT-WSS3D -->
-		<div class="paper short">
+		<div class="paper short" data-order="80">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/ViT-WSS3D.jpg">
@@ -1143,7 +1166,7 @@
 		</div>
 		
 		<!-- SOOD -->
-		<div class="paper short">
+		<div class="paper short" data-order="240">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/SOOD.jpg">
@@ -1166,7 +1189,7 @@
 		</div>
 
 		<!-- LATFormer -->
-		<div class="paper short">
+		<div class="paper short" data-order="90">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/LATFormer.jpg">
@@ -1189,7 +1212,7 @@
 		</div>		
 
 		<!-- AutoScale -->
-		<div class="paper short">
+		<div class="paper short" data-order="350">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/AutoScale.jpg">
@@ -1213,9 +1236,9 @@
 
 
 		<!-- ORION -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="26" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
-				<img border="0" width="200" height="130" src="imgs/ORION.jpg">
+				<img border="0" width="200" height="130" src="imgs/Orion.gif">
 			</div>
 			<div class="sub-right" style="flex-grow: 1;">
 				<div class="paperTitle">
@@ -1236,7 +1259,7 @@
 
 
 		<!-- DiVerse -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="150" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
 				<img border="0" width="200" height="130" src="imgs/DiVerse.png">
 			</div>
@@ -1258,7 +1281,7 @@
 		</div>
 
 		<!-- DriveMonkey -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="75" style="display: flex; align-items: center;">
 			<div class="sub-left" style="margin-right: 20px;">
 				<img border="0" width="200" height="130" src="imgs/drivemonkey.jpg">
 			</div>
@@ -1280,7 +1303,7 @@
 		</div>
 
 		<!-- Survey -->
-		<div class="paper short" style="display: flex; align-items: center;">
+		<div class="paper short" data-order="160" style="display: flex; align-items: center;">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/survey.jpg">
@@ -1303,7 +1326,7 @@
 		</div>
 
 		<!-- MINIMA -->
-		<div class="paper short">
+		<div class="paper short" data-order="260">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/MINIMA.jpg">
@@ -1349,7 +1372,7 @@
 		</div> -->
 
 		<!-- UniSeg3D -->
-		<div class="paper short">
+		<div class="paper short" data-order="130">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/UniSeg3D.jpg">
@@ -1372,7 +1395,7 @@
 		</div>
 
 		<!-- QTNet -->
-		<div class="paper short">
+		<div class="paper short" data-order="170">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/QTNet.jpg">
@@ -1395,7 +1418,7 @@
 		</div>
 
 		<!-- SAM3D -->
-		<div class="paper short">
+		<div class="paper short" data-order="180">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/SAM3D.jpg">
@@ -1443,7 +1466,7 @@
 		</div> -->
 
 		<!-- Mini-Monkey -->
-		<div class="paper short">
+		<div class="paper short" data-order="270">
 			<div class="sub-left">
 				<span></span>
 				<img border="0" width="200" height="130" src="imgs/mini_monkey.jpg">
@@ -1607,23 +1630,21 @@
 	
 				
 				
-				<!-- site visitors begin -->
-				<div style="margin:50px 0;">
-					<a href="https://clustrmaps.com/site/1bh1a" title="Visit tracker">
-						<img src="https://clustrmaps.com/map_v2.png?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a" alt="Site Visitors Map" />
-					</a>
-				</div>
-				<!-- site visitors end -->
+					<!-- site visitors begin -->
+					<div style="margin:50px 0;">
+						<a href="https://clustrmaps.com/site/1bh1a" title="Visit tracker">
+							<img src="https://clustrmaps.com/map_v2.png?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a" alt="Site Visitors Map" />
+						</a>
+					</div>
+					<!-- site visitors end -->
 
-		
+					<!-- Last update time begjin -->
+					<div class="footer-meta">
+						<p>Last updated: <span id="last-updated-date">--</span></p>
+					</div>
+					<!-- Last update time end -->
 
-			<!-- Last update time begjin -->
-			<div class="footer-meta">
-				<p>Last updated: 2026-03-09</p>
-			</div>
-			<!-- Last update time end -->
-
-	</div>
+		</div>
 	<script type="text/javascript">
 		(function () {
 			function formatNewsList() {
@@ -1681,6 +1702,33 @@
 				}
 			}
 
+			function sortPublicationsByPriority() {
+				var root = document.getElementById('publications');
+				if (!root) return;
+
+				var papers = [];
+				for (var i = 0; i < root.children.length; i++) {
+					var child = root.children[i];
+					if (child.classList && child.classList.contains('paper')) {
+						var order = parseInt(child.getAttribute('data-order'), 10);
+						papers.push({
+							el: child,
+							order: isNaN(order) ? 999999 : order,
+							sourceIndex: papers.length
+						});
+					}
+				}
+
+				papers.sort(function (a, b) {
+					if (a.order !== b.order) return a.order - b.order;
+					return a.sourceIndex - b.sourceIndex;
+				});
+
+				for (var j = 0; j < papers.length; j++) {
+					root.appendChild(papers[j].el);
+				}
+			}
+
 			function extractOwnerRepo(urlString) {
 				try {
 					var u = new URL(urlString);
@@ -1729,6 +1777,29 @@
 					notation: 'compact',
 					maximumFractionDigits: 1
 				}).format(num);
+			}
+
+			function formatDateYMD(date) {
+				if (!(date instanceof Date) || isNaN(date.getTime())) return '--';
+				var year = date.getFullYear();
+				var month = String(date.getMonth() + 1).padStart(2, '0');
+				var day = String(date.getDate()).padStart(2, '0');
+				return year + '-' + month + '-' + day;
+			}
+
+			function setLastUpdatedDate() {
+				var el = document.getElementById('last-updated-date');
+				if (!el) return;
+
+				var raw = document.lastModified;
+				var parsed = raw ? new Date(raw) : null;
+				if (!parsed || isNaN(parsed.getTime())) {
+					el.textContent = '--';
+					return;
+				}
+
+				el.textContent = formatDateYMD(parsed);
+				el.parentNode.title = raw;
 			}
 
 			function setScholarCitationCount() {
@@ -1840,12 +1911,15 @@
 				});
 			}
 
+			sortPublicationsByPriority();
+
 			var codeLinks = document.querySelectorAll('.paper a[href*="github.com"]');
 			for (var i = 0; i < codeLinks.length; i++) {
 				addStarBadgeToLink(codeLinks[i]);
 			}
 
 			setScholarCitationCount();
+			setLastUpdatedDate();
 			loadGithubTotalStars();
 			formatNewsList();
 			normalizePublicationVenueLines();
