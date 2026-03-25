@@ -1,19 +1,26 @@
 name: Update Google Scholar citations
 
 on:
+  push:
+    branches:
+      - master
+      - main
   schedule:
     - cron: '17 3 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: update-scholar-citations
+  group: pages
   cancel-in-progress: true
 
 jobs:
-  update:
+  build:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -27,9 +34,9 @@ jobs:
           python-version: '3.11'
 
       - name: Update citation count
-        run: python scripts/update_scholar_citations.py
+        run: python scripts/update_scholar_citations.py || true
 
-      - name: Commit and push changes
+      - name: Commit synced citation count
         run: |
           if git diff --quiet -- index.html; then
             echo "No citation updates detected."
@@ -39,5 +46,39 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html
-          git commit -m "chore: update Google Scholar citations"
+          git commit -m "chore: sync Google Scholar citations [skip ci]"
           git push
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Assemble Pages artifact
+        run: |
+          mkdir -p _site
+          rsync -av --delete \
+            --exclude '.git/' \
+            --exclude '.github/' \
+            --exclude '.idea/' \
+            --exclude '.vscode/' \
+            --exclude '.venv/' \
+            --exclude '_site/' \
+            --exclude '.DS_Store' \
+            --exclude 'scripts/' \
+            ./ _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
