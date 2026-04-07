@@ -539,6 +539,101 @@
 			color: var(--muted);
 		}
 
+		.students-shell{
+			display: grid;
+			gap: 28px;
+		}
+
+		.student-group{
+			display: grid;
+			gap: 18px;
+		}
+
+		.student-group-header{
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			font-size: 20px;
+			font-weight: 800;
+			color: #243b63;
+		}
+
+		.student-group-header::before{
+			content: "";
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			background: linear-gradient(135deg, var(--accent), #e7b256);
+			box-shadow: 0 0 0 6px rgba(183, 121, 31, 0.12);
+		}
+
+		.student-grid{
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+			gap: 18px;
+		}
+
+		.student-card{
+			padding: 22px 18px 20px;
+			background: linear-gradient(180deg, #ffffff, #f8fbff);
+			border: 1px solid #e5ecf6;
+			border-radius: 22px;
+			box-shadow: 0 12px 28px rgba(15, 23, 42, 0.05);
+			text-align: center;
+		}
+
+		.student-avatar{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 92px;
+			height: 92px;
+			margin: 0 auto 16px;
+			border-radius: 50%;
+			background: linear-gradient(135deg, #edf4ff, #fff6e7);
+			border: 1px solid #d9e4f4;
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 28px;
+			font-weight: 700;
+			color: var(--primary);
+		}
+
+		.student-name{
+			font-size: 17px;
+			font-weight: 800;
+			color: #1d4ed8;
+		}
+
+		.student-meta{
+			margin-top: 6px;
+			font-size: 14px;
+			font-weight: 700;
+			color: #94a3b8;
+		}
+
+		.student-note,
+		.student-highlights{
+			margin-top: 8px;
+			font-size: 14px;
+			line-height: 1.7;
+			color: #64748b;
+		}
+
+		.student-highlights{
+			color: #334155;
+			font-weight: 600;
+		}
+
+		.student-empty{
+			padding: 24px;
+			background: linear-gradient(180deg, #fbfdff, #f8fafc);
+			border: 1px dashed #cfd9e8;
+			border-radius: 20px;
+			font-size: 15px;
+			color: var(--muted);
+			text-align: center;
+		}
+
 		.section .paperName b{
 			font-weight: 600;
 		}
@@ -609,6 +704,10 @@
 			}
 
 			.highlight-grid{
+				grid-template-columns: 1fr;
+			}
+
+			.student-grid{
 				grid-template-columns: 1fr;
 			}
 
@@ -1637,17 +1736,222 @@
 		
 
 
-				<span class="Title" id="students"><b>Co-supervised Students</b></span><p>
+				<span class="Title" id="students"><b>Students</b></span><p>
 					<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
 					
-					<p class="compact-intro">As a collaborator and mentor, I enjoy working with motivated students on ambitious research problems. If you are interested in collaboration, feel free to get in touch.</p>
-				
-					<div class="list-card paperName"><b>
-						已毕业的研究生：<br>
-						• Dingyuan Zhang. Master degree, graduating in 2025. Now at Xiaomi. 一作ICCV 23, ECCV 24, RAL 24, SCIS 23. <br>
-						• Wei Hua. Master degree, graduating in 2024. Now at Jiangxi Electric Power Grid Corporation. 一作CVPR 23, ICDAR 23. <br>
-						• Jingyu Li. Master degree, graduating in 2024. Now Ph.D. at Fudan University. 一作ICRA 23. <br>
-						• Jianfeng Kuang. Master degree, graduating in 2023. Now at ByteDance. 一作ICDAR 23. <br>
+					<p class="compact-intro">I am fortunate to work with outstanding students across different stages. Below is a snapshot of current students and alumni.</p>
+
+					<div class="students-shell">
+						<div class="student-group">
+							<div class="student-group-header">PhD Students</div>
+							<div class="student-grid">
+								<div class="student-card">
+									<div class="student-avatar">ZZ</div>
+									<div class="student-name">Zhongchuang Zhao</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">ICCV 2025</div>
+									<div class="student-note">Dongfeng internship</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">WX</div>
+									<div class="student-name">Wei Xu</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">NeurIPS 2024, NeurIPS 2025</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">HL</div>
+									<div class="student-name">Hongkai Lin</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">CVPR 2025, NeurIPS 2025</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">XZ</div>
+									<div class="student-name">Xin Zhou</div>
+									<div class="student-meta">2025-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">ICCV 2025, CVPR 2024, TPAMI 2025</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">XX</div>
+									<div class="student-name">Xiaopeng Xu</div>
+									<div class="student-meta">2025-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">-</div>
+									<div class="student-note">Huawei internship</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="student-group">
+							<div class="student-group-header">Master Students</div>
+							<div class="student-grid">
+								<div class="student-card">
+									<div class="student-avatar">HF</div>
+									<div class="student-name">Haoyu Fu</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">ICCV 2025</div>
+									<div class="student-note">Xiaomi internship</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">CS</div>
+									<div class="student-name">Chunsheng Shi</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">NeurIPS 2024</div>
+									<div class="student-note">Xiaomi internship</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">YG</div>
+									<div class="student-name">Yiran Guan</div>
+									<div class="student-meta">2024-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">NeurIPS 2025, ICLR 2026</div>
+									<div class="student-note">Xiaomi internship</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">CW</div>
+									<div class="student-name">Cheng Wang</div>
+									<div class="student-meta">2024-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">NeurIPS 2025</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">CZ</div>
+									<div class="student-name">Cheng Zhang</div>
+									<div class="student-meta">2024-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">AAAI 2026 Oral</div>
+									<div class="student-note">Huawei internship</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">HF</div>
+									<div class="student-name">Heng Fang</div>
+									<div class="student-meta">2025-</div>
+									<div class="student-note">Co-supervised with Prof. Xiang Bai</div>
+									<div class="student-highlights">-</div>
+									<div class="student-note">Huawei internship</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="student-group">
+							<div class="student-group-header">Undergraduate Students</div>
+							<div class="student-grid">
+								<div class="student-card">
+									<div class="student-avatar">KC</div>
+									<div class="student-name">Kaijin Chen</div>
+									<div class="student-meta">2022</div>
+									<div class="student-highlights">-</div>
+									<div class="student-note">Kuaishou internship</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">XW</div>
+									<div class="student-name">Xianjin Wu</div>
+									<div class="student-meta">2022-</div>
+									<div class="student-highlights">Competition champion, 200,000 RMB prize</div>
+									<div class="student-note">Baidu internship</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">TF</div>
+									<div class="student-name">Tianrui Feng</div>
+									<div class="student-meta">2022-</div>
+									<div class="student-highlights">TPAMI 2025</div>
+									<div class="student-note">Ant Group internship</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">SL</div>
+									<div class="student-name">Siyuan Liu</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">CVPR 2026</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">CZ</div>
+									<div class="student-name">Chaoqun Zheng</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">CVPR 2026</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">ZS</div>
+									<div class="student-name">Zhengyang Sun</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">CVPR 2026</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">YC</div>
+									<div class="student-name">Yu Chen</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">CVPR 2026</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">XL</div>
+									<div class="student-name">Xiao Luo</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">-</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">MD</div>
+									<div class="student-name">Mingyang Du</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">-</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">YZ</div>
+									<div class="student-name">Yilin Zhao</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">-</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">XL</div>
+									<div class="student-name">Xian Li</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">-</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">LT</div>
+									<div class="student-name">Luofei Tan</div>
+									<div class="student-meta">2023-</div>
+									<div class="student-highlights">-</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="student-group">
+							<div class="student-group-header">Alumni</div>
+							<div class="student-grid">
+								<div class="student-card">
+									<div class="student-avatar">DZ</div>
+									<div class="student-name">Dingyuan Zhang</div>
+									<div class="student-meta">Graduated in 2025</div>
+									<div class="student-note">Master degree, now at Xiaomi</div>
+									<div class="student-highlights">ICCV 23, ECCV 24, RAL 24, SCIS 23</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">WH</div>
+									<div class="student-name">Wei Hua</div>
+									<div class="student-meta">Graduated in 2024</div>
+									<div class="student-note">Master degree, now at Jiangxi Electric Power Grid Corporation</div>
+									<div class="student-highlights">CVPR 23, ICDAR 23</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">JL</div>
+									<div class="student-name">Jingyu Li</div>
+									<div class="student-meta">Graduated in 2024</div>
+									<div class="student-note">Master degree, now a Ph.D. student at Fudan University</div>
+									<div class="student-highlights">ICRA 23</div>
+								</div>
+								<div class="student-card">
+									<div class="student-avatar">JK</div>
+									<div class="student-name">Jianfeng Kuang</div>
+									<div class="student-meta">Graduated in 2023</div>
+									<div class="student-note">Master degree, now at ByteDance</div>
+									<div class="student-highlights">ICDAR 23</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<!-- <div class="paperName"><b>
