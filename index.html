@@ -546,6 +546,13 @@
 			border: 1px solid #e5eaf1;
 		}
 
+		#publications .sub-left img.paper-image--contain{
+			box-sizing: border-box;
+			padding: 4px;
+			object-fit: contain;
+			background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+		}
+
 		#publications .paperPub span{
 			display: inline-flex;
 			align-items: center;
@@ -853,7 +860,7 @@
 			<div class="sub-right"  style="height:auto; max-height:none; overflow:visible;" ></div>
 			<div class="paperName" style="max-height: 600px; overflow-y: auto; padding-right: 10px;"><b>
 				07 / 2026: I was invited to serve as an Senior Program Committee (<span style="color:red">SPC</span>) for <span style="color:red">AAAI 2027</span><br>
-				06 / 2026: Six papers are accepted by <span style="color:red">ECCV 2026</span><br>  
+				06 / 2026: Six papers (One oral) are accepted by <span style="color:red">ECCV 2026</span><br>  
 				05 / 2026: <span style="color:red">Outstanding reviewer (6%) at CVPR 2026</span><br> 
 				05 / 2026: I give a talk about VLA in VALSE 2026. <br>
 				04 / 2026: I was awarded the <span style="color:red">China3DV Academic Rising Star Award</span> (one of six awardees).<br>
@@ -921,6 +928,72 @@
 	<hr style="BORDER-LEFT-STYLE: none; BORDER-TOP: gray 2px groove; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none">
 	(* Co-first author, <sup style="font-size: 1.15em;">&#9993;</sup> Corresponding author, + Project lead) <br> <br>
 	<div id="publications">
+
+		<!-- TurboVLA -->
+		<div class="paper short" data-order="3" style="display: flex; align-items: center;">
+			<div class="sub-left" style="margin-right: 20px;">
+				<img class="paper-image--contain" border="0" width="200" height="130" src="imgs/TurboVLA.gif" alt="TurboVLA real-time robotic manipulation demo" loading="lazy" decoding="async">
+			</div>
+			<div class="sub-right" style="flex-grow: 1;">
+				<div class="paperTitle">
+					TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with &lt;1 GB VRAM
+				</div>
+				<div class="paperName">
+					Hengyi Xie*, Chenfei Yao*, Xianjin Wu, Xuanyang Xi, Yiping Tang, Di Xu, Yingying Zhu, <span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang+</b></span>, Xiang Bai, Han Ding
+				</div>
+				<div class="paperPub">
+					<span style="color:red"> <b>arXiv</b></span>, 2026.<br>
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2607.27205" target="_blank" rel="nofollow">Paper</a>
+					| <a href="https://github.com/H-EmbodVis/TurboVLA" target="_blank" rel="nofollow">Code</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- SimWAM -->
+		<div class="paper short" data-order="1" style="display: flex; align-items: center;">
+			<div class="sub-left" style="margin-right: 20px;">
+				<img class="paper-image--contain" border="0" width="200" height="130" src="imgs/SimWAM.png" alt="SimWAM framework overview" loading="lazy" decoding="async">
+			</div>
+			<div class="sub-right" style="flex-grow: 1;">
+				<div class="paperTitle">
+					SimWAM: A Simple World Action Model for End-to-End Autonomous Driving
+				</div>
+				<div class="paperName">
+					Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, <span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang+</b></span>, Xiang Bai
+				</div>
+				<div class="paperPub">
+					<span style="color:red"> <b>arXiv</b></span>, 2026.<br>
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2608.07468" target="_blank" rel="nofollow">Paper</a>
+					| <a href="https://github.com/H-EmbodVis/SimWAM" target="_blank" rel="nofollow">Code</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- ROAD -->
+		<div class="paper short" data-order="2" style="display: flex; align-items: center;">
+			<div class="sub-left" style="margin-right: 20px;">
+				<img class="paper-image--contain" border="0" width="200" height="130" src="imgs/ROAD.gif" alt="ROAD 3D generation result" loading="lazy" decoding="async">
+			</div>
+			<div class="sub-right" style="flex-grow: 1;">
+				<div class="paperTitle">
+					ROAD: Reciprocal-Objective Alignment of Discriminative Semantics for 3D Shape Generation
+				</div>
+				<div class="paperName">
+					Xiao Luo, Mingyang Du, Xin Zhou, Tianrui Feng, Xiwu Chen, Xiaofan Li, Jiangning Zhang, <span style="font-size: 1.1em; font-weight: bold; color: blue;"><b>Dingkang Liang+<sup style="font-size: 1.15em;">&#9993;</sup></b></span>
+				</div>
+				<div class="paperPub">
+					<span style="color:red"> <b>arXiv</b></span>, 2026.<br>
+				</div>
+				<div class="paperLink">
+					| <a href="https://arxiv.org/abs/2607.28581" target="_blank" rel="nofollow">Paper</a>
+					| <a href="https://github.com/H-EmbodVis/ROAD" target="_blank" rel="nofollow">Code</a>
+				</div>
+			</div>
+		</div>
 
 		<!-- DOMINO -->
 		<div class="paper short" data-order="15" style="display: flex; align-items: center;">
