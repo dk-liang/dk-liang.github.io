@@ -1,0 +1,190 @@
+% Dingkang Liang - Academic CV
+% Updated from https://dk-liang.github.io/ (August 2026)
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[default]{sourcesanspro}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+\geometry{left=1.75cm,right=1.75cm,top=1.35cm,bottom=1.45cm}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{2em}
+\setlength{\fboxsep}{0pt}
+\urlstyle{same}
+
+\definecolor{ink}{HTML}{1B2A38}
+\definecolor{navy}{HTML}{173E63}
+\definecolor{accent}{HTML}{3777A8}
+\definecolor{muted}{HTML}{5A6A79}
+\definecolor{line}{HTML}{CAD6DF}
+\definecolor{pale}{HTML}{EFF5F8}
+
+\color{ink}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{muted} DINGKANG LIANG / ACADEMIC CV / AUGUST 2026}
+\fancyfoot[R]{\footnotesize\color{muted} \thepage\ / 3}
+
+\titleformat{\section}
+  {\normalsize\bfseries\color{navy}\scshape}
+  {}{0pt}{}
+  [\vspace{0.18em}{\color{line}\titlerule}]
+\titlespacing*{\section}{0pt}{1.15em}{0.62em}
+
+\newcommand{\me}{\textbf{\color{accent}Dingkang Liang}}
+
+\newcommand{\timeline}[4]{%
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X>{\raggedleft\arraybackslash}p{3.25cm}@{}}
+    \textbf{#1} & \textcolor{muted}{#2} \\
+    \textit{#3} & \textcolor{muted}{#4}
+  \end{tabularx}\vspace{0.7em}
+}
+
+\newcommand{\pub}[3]{%
+  \item \textbf{#1}\\[-0.08em]
+  {\color{muted}#2}\quad{\color{navy}\textbf{#3}}
+}
+
+\newcommand{\topic}[1]{%
+  \vspace{0.35em}{\large\bfseries\color{ink}#1}\par\vspace{0.25em}
+}
+
+\begin{document}
+
+\colorbox{navy}{%
+  \begin{minipage}[c][3.15cm][c]{\textwidth}
+    \hspace{0.62cm}%
+    \begin{minipage}{\dimexpr\textwidth-1.24cm\relax}
+      {\fontsize{29}{32}\selectfont\bfseries\color{white} Dingkang Liang}\par
+      \vspace{0.16cm}
+      {\large\color{white} Assistant Professor, Huazhong University of Science and Technology}\par
+      \vspace{0.34cm}
+      {\color{white}
+        \href{mailto:dkliang@hust.edu.cn}{\textcolor{white}{\faEnvelope\quad dkliang@hust.edu.cn}}
+        \hspace{1.25em}\textcolor{line}{|}\hspace{1.25em}
+        \href{https://dk-liang.github.io/}{\textcolor{white}{\faGlobe\quad dk-liang.github.io}}
+        \hspace{1.25em}\textcolor{line}{|}\hspace{1.25em}
+        \href{https://github.com/dk-liang}{\textcolor{white}{\faGithub\quad dk-liang}}
+      }
+    \end{minipage}
+  \end{minipage}%
+}
+
+\vspace{0.9em}
+\section{Profile}
+I build visual intelligence systems that connect perception, understanding, generation, and embodied decision-making. My current research centers on embodied AI, autonomous driving, scalable world models, and real-world 3D scene reasoning.
+
+\vspace{0.45em}
+\fcolorbox{line}{pale}{%
+  \begin{minipage}[c][1.45cm][c]{\dimexpr\textwidth-2\fboxrule\relax}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X}
+      {\LARGE\bfseries\color{navy}3,493} & {\LARGE\bfseries\color{navy}12.6K} & {\LARGE\bfseries\color{navy}2026} \\
+      \textcolor{muted}{Google Scholar citations} & \textcolor{muted}{GitHub stars} & \textcolor{muted}{China3DV Rising Star}
+    \end{tabularx}
+  \end{minipage}%
+}
+
+\section{Academic Appointment}
+\timeline{Huazhong University of Science and Technology}{Wuhan, China}
+         {Assistant Professor}{Current}
+
+\section{Education}
+\timeline{Huazhong University of Science and Technology}{Wuhan, China}
+         {Ph.D. in Computer Science; Advisor: Prof. Xiang Bai}{2022 - 2025}
+\timeline{Huazhong University of Science and Technology}{Wuhan, China}
+         {M.S. in Computer Science}{2019 - 2022}
+\timeline{Nanjing University of Posts and Telecommunications}{Nanjing, China}
+         {B.E.}{2015 - 2019}
+
+\section{Selected Honors}
+\begin{itemize}[leftmargin=1.35em,itemsep=0.52em,topsep=0.1em]
+  \item \textbf{China3DV Academic Rising Star Award}, one of six awardees, 2026.
+  \item \textbf{National Scholarship}, 2021, 2024, and 2025.
+  \item \textbf{ICCV Doctoral Consortium}, selected participant, 2025.
+  \item \textbf{Outstanding Paper}, \textit{Science China Information Sciences}, top 3.4\%, 2025.
+  \item \textbf{ESI Highly Cited Papers}: FIDTM and TransCrowd, top 1\% in their academic field.
+\end{itemize}
+
+\section{Professional Service}
+\begin{itemize}[leftmargin=1.35em,itemsep=0.52em,topsep=0.1em]
+  \item \textbf{Associate Editor}: \textit{Pattern Recognition}, 2026 - Present.
+  \item \textbf{Area Chair / Senior Program Committee}: ECCV 2026; AAAI 2027.
+  \item \textbf{Outstanding Reviewer}: ICCV 2023 (top 1.5\%); CVPR 2025 and CVPR 2026 (top 6\%).
+  \item Reviewer for CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, ICRA, 3DV, TPAMI, TIP, and IJCV.
+\end{itemize}
+
+\newpage
+
+\section{Selected Publications}
+{\color{muted}\textsuperscript{*}Co-first author\quad
+ \textsuperscript{+}Project lead\quad
+ \textsuperscript{\#}Corresponding author\quad
+ \href{https://scholar.google.com/citations?user=Tre69v0AAAAJ}{Complete publication list}}
+
+\topic{Embodied AI, World Models, and Generative Intelligence}
+\begin{enumerate}[leftmargin=1.65em,label=\textcolor{muted}{\arabic*.},itemsep=0.7em,topsep=0.25em,parsep=0pt]
+  \pub{TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with $<$1 GB VRAM.}{Hengyi Xie*, Chenfei Yao*, et al., \me\textsuperscript{+}, Xiang Bai, Han Ding.}{arXiv 2026}
+  \pub{SimWAM: A Simple World Action Model for End-to-End Autonomous Driving.}{Zongchuang Zhao, Xin Zhou, et al., \me\textsuperscript{+}, Xiang Bai.}{arXiv 2026}
+  \pub{ROAD: Reciprocal-Objective Alignment of Discriminative Semantics for 3D Shape Generation.}{Xiao Luo, Mingyang Du, et al., \me\textsuperscript{+\#}.}{arXiv 2026}
+  \pub{Towards Generalizable Robotic Manipulation in Dynamic Environments.}{Heng Fang, Shangru Li, Shuhan Wang, Xuanyang Xi, \me\textsuperscript{\#}, Xiang Bai.}{ECCV 2026}
+  \pub{MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning.}{Haoyu Fu, Diankun Zhang, et al., \me\textsuperscript{\#}, Xiang Bai.}{ECCV 2026}
+  \pub{Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models.}{Kaijin Chen, \me\textsuperscript{+}, Xin Zhou, Yikang Ding, Xiaoqiang Liu, Pengfei Wan, Xiang Bai.}{arXiv 2026}
+  \pub{Seeing the Future, Perceiving the Future: A Unified Driving World Model for Future Generation and Perception.}{\me, Dingyuan Zhang, Xin Zhou, Sifan Tu, Tianrui Feng, Xiaofan Li, Yumeng Zhang, et al.}{ICRA 2026}
+  \pub{Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding.}{Xianjin Wu, \me\textsuperscript{+}, Tianrui Feng, Kui Xia, Yumeng Zhang, Xiaofan Li, et al.}{ECCV 2026}
+  \pub{When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models.}{Zhengyang Sun*, Yu Chen*, et al., \me\textsuperscript{+}, Xiang Bai\textsuperscript{\#}.}{CVPR 2026}
+  \pub{FVAR: Visual Autoregressive Modeling via Next Focus Prediction.}{Xiaofan Li, Chenming Wu, Jiaming Zhou, et al., \me\textsuperscript{\#}.}{CVPR 2026}
+  \pub{Cook and Clean Together: Teaching Embodied Agents for Parallel Task Execution.}{\me, Cheng Zhang, Xiaopeng Xu, Jianzhong Ju, Zhenbo Luo, Xiang Bai.}{AAAI 2026 Oral}
+  \pub{HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation.}{Xin Zhou*, \me\textsuperscript{*}, Sifan Tu, Xiwu Chen, Yikang Ding, et al.}{ICCV 2025}
+  \pub{ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation.}{Haoyu Fu, Diankun Zhang, et al., \me\textsuperscript{+}, Chong Zhang, et al.}{ICCV 2025}
+\end{enumerate}
+
+\newpage
+
+\section{Selected Publications}
+{\color{muted}\textsuperscript{*}Co-first author\quad
+ \textsuperscript{+}Project lead\quad
+ \textsuperscript{\#}Corresponding author\quad
+ \href{https://scholar.google.com/citations?user=Tre69v0AAAAJ}{Complete publication list}}
+
+\topic{3D Vision and Dense Object Analysis}
+\begin{enumerate}[leftmargin=1.65em,label=\textcolor{muted}{\arabic*.},itemsep=0.7em,topsep=0.25em,parsep=0pt,start=14]
+  \pub{PointTPA: Dynamic Network Parameter Adaptation for 3D Scene Understanding.}{Siyuan Liu, Chaoqun Zheng, et al., \me\textsuperscript{\#}, Xiang Bai.}{CVPR 2026}
+  \pub{SOOD++: Leveraging Unlabeled Data to Boost Oriented Object Detection.}{\me, Wei Hua, Chunsheng Shi, Zhikang Zou, Xiaoqing Ye, Xiang Bai.}{IEEE TPAMI 2025}
+  \pub{Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning.}{\me*, Tianrui Feng*, Xin Zhou*, Yumeng Zhang, Zhikang Zou, Xiang Bai.}{IEEE TPAMI 2025}
+  \pub{PointMamba: A Simple State Space Model for Point Cloud Analysis.}{\me*, Xin Zhou*, Wei Xu, Xingkui Zhu, Zhikang Zou, et al.}{NeurIPS 2024}
+  \pub{A Unified Framework for 3D Scene Understanding.}{Wei Xu*, Chunsheng Shi*, Sifan Tu, Xin Zhou, \me\textsuperscript{+}, Xiang Bai.}{NeurIPS 2024}
+  \pub{Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis.}{Xin Zhou*, \me*, Wei Xu, Xingkui Zhu, Yihan Xu, et al.}{CVPR 2024}
+  \pub{Make Your ViT-based Multi-view 3D Detectors Faster via Token Compression.}{Dingyuan Zhang*, \me*, Zichang Tan, Xiaoqing Ye, Cheng Zhang, et al.}{ECCV 2024}
+  \pub{A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection.}{Dingyuan Zhang*, \me*, Zhikang Zou*, Jingyu Li, Xiaoqing Ye, et al.}{ICCV 2023}
+  \pub{CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model.}{\me*, Jiahao Xie*, Zhikang Zou, Xiaoqing Ye, Wei Xu, Xiang Bai.}{CVPR 2023}
+  \pub{An End-to-End Transformer Model for Crowd Localization.}{\me, Wei Xu, Xiang Bai.}{ECCV 2022}
+  \pub{Focal Inverse Distance Transform Maps for Crowd Localization.}{\me, Wei Xu, Yingying Zhu, Yu Zhou.}{IEEE TMM 2023}
+  \pub{TransCrowd: Weakly-Supervised Crowd Counting with Transformers.}{\me, Xiwu Chen, Wei Xu, Yu Zhou, Xiang Bai.}{SCIS 2022}
+  \pub{AutoScale: Learning to Scale for Crowd Counting.}{Chenfeng Xu*, \me*, Yongchao Xu, Song Bai, Wei Zhan, Xiang Bai, Masayoshi Tomizuka.}{IJCV 2022}
+\end{enumerate}
+
+\section{Selected Competition Results}
+\begin{itemize}[leftmargin=1.35em,itemsep=0.48em,topsep=0.1em]
+  \item \textbf{1st Place}, AI City Challenge, Multi-Camera 3D Perception Track, ECCV 2026.
+  \item \textbf{2nd Place}, SoccerNet Monocular Depth Estimation Challenge, CVPR 2025.
+  \item \textbf{1st Place}, FishNet Classification Challenge, ECCV 2024; \textbf{2nd Place}, Dataset Distillation Challenge, ECCV 2024.
+  \item \textbf{1st Place}, VisDrone Crowd Counting Track, ECCV 2020 and ICCV 2021.
+  \item \textbf{Two 1st-Place Finishes}, CV101 Crowd Counting and OpenVINO Tracks, 2019 (RMB 180,000 total prize).
+\end{itemize}
+
+\end{document}
