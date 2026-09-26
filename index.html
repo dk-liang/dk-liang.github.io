@@ -50,6 +50,11 @@
 			color: var(--primary-dark);
 		}
 
+		[hidden]{ display: none !important; }
+
+		.visitor-count{ display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px; }
+		.visitor-count img{ height: 20px; width: auto; }
+
 		img{
 			max-width: 100%;
 			display: block;
@@ -870,7 +875,7 @@
 		<div class="paper long"><b>
 			<div class="sub-right"  style="height:auto; max-height:none; overflow:visible;" ></div>
 			<div class="paperName" style="max-height: 600px; overflow-y: auto; padding-right: 10px;"><b>
-				09 / 2026: One paper (One oral) is accepted by <span style="color:red">NeurIPS 2026</span><br>  
+				09 / 2026: One paper is accepted by <span style="color:red">NeurIPS 2026</span><br>  
 				09 / 2026: I was invited to serve as an Area Chair (<span style="color:red">AC</span>) for <span style="color:red">CVPR 2027</span> and <span style="color:red">ICLR 2027</span>  <br> 
 				08 / 2026: We released Qwen-Drive-1.0 <br>  
 				08 / 2026: We win <span style="color:red">1st</span> place in the AI City Challenge (<span style="color:red">ECCV</span>) on the multi-camera 3D perception track.<br>
@@ -2196,8 +2201,9 @@
 					<!-- site visitors begin -->
 					<div style="margin:50px 0;">
 						<a href="https://clustrmaps.com/site/1bh1a" title="Visit tracker">
-							<img src="https://clustrmaps.com/map_v2.png?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a" alt="Site Visitors Map" />
+							<img src="https://clustrmaps.com/map_v2.png?d=f4MP0UkdUkFjU8rhQtVNPbOqJDbrXXpe90qfkwCEcgU&cl=ffffff&w=a" alt="Site Visitors Map" onerror="this.parentNode.hidden = true; this.parentNode.nextElementSibling.hidden = false;" />
 						</a>
+						<span hidden>Visitor map is temporarily unavailable.</span>
 					</div>
 					<!-- site visitors end -->
 
@@ -2207,12 +2213,14 @@
 						<!-- Keep these visitor-counter page IDs stable so source updates do not reset the counts. -->
 						<p class="visitor-count">Total visitors:
 							<a href="https://visitor-badge.laobi.icu/" target="_blank" rel="nofollow noopener" title="Visitor count">
-								<img id="total-visitor-count" alt="Visitor count" />
+								<img id="total-visitor-count" alt="Visitor count" hidden />
+								<span class="visitor-status" role="status">Unavailable</span>
 							</a>
 						</p>
 						<p class="visitor-count">Visitors this month:
 							<a href="https://visitor-badge.laobi.icu/" target="_blank" rel="nofollow noopener" title="Monthly visitor count">
-								<img id="monthly-visitor-count" alt="Monthly visitor count" />
+								<img id="monthly-visitor-count" alt="Monthly visitor count" hidden />
+								<span class="visitor-status" role="status">Unavailable</span>
 							</a>
 						</p>
 					</div>
@@ -2381,16 +2389,22 @@
 				var monthlyEl = document.getElementById('monthly-visitor-count');
 				if (!totalEl || !monthlyEl) return;
 
-				var ownerMode = false;
+				var visitorMode = new URLSearchParams(window.location.search).get('visitor');
+				var ownerMode = visitorMode === 'owner';
 				try {
-					var visitorMode = new URLSearchParams(window.location.search).get('visitor');
 					if (visitorMode === 'owner') {
 						localStorage.setItem('dkliang-owner-visitor', '1');
 					} else if (visitorMode === 'clear') {
 						localStorage.removeItem('dkliang-owner-visitor');
 					}
-					ownerMode = localStorage.getItem('dkliang-owner-visitor') === '1';
+					ownerMode = ownerMode || localStorage.getItem('dkliang-owner-visitor') === '1';
 				} catch (e) {}
+				[totalEl, monthlyEl].forEach(function (img) {
+					var status = img.nextElementSibling;
+					status.textContent = ownerMode ? 'Owner mode (not counted)' : 'Loading…';
+					img.onload = function () { img.hidden = false; status.hidden = true; };
+					img.onerror = function () { img.hidden = true; status.hidden = false; status.textContent = 'Temporarily unavailable'; };
+				});
 				if (ownerMode) return;
 
 				totalEl.src = 'https://visitor-badge.laobi.icu/badge?page_id=dk-liang.github.io';
